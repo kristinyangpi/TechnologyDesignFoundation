@@ -59,6 +59,12 @@ Prompt 2: Private Chef 👨‍🍳
 
 **Agent Studio settings**
 
+<table width="100%">
+<tr>
+<td valign="top" width="50%">
+
+**Agent Studio settings**
+
 | Setting | Value |
 |---|---|
 | Model | Meta: Llama 3.1 8B Instruct |
@@ -69,58 +75,8 @@ Prompt 2: Private Chef 👨‍🍳
 </td>
 <td valign="top" width="50%">
 
-Considering the diverse cultural backgrounds and dietary restrictions, I'd suggest a dish that's both delicious and inclusive. Here's a recipe that combines elements from Taiwan, India, and Canada, and is gluten-free:
-
-Gluten-Free Taiwanese-Style Beef Noodle Soup with Indian-Style Spices and Canadian-Style Bannock
-
-This dish is a creative fusion of flavors and textures that will surely impress your friends. The Taiwanese-style beef noodle soup is a nod to the Taiwanese influence, while the Indian-style spices add a warm and aromatic flavor. The Canadian-style bannock is a fun twist on traditional bread.
-
-Ingredients:
-
-1 pound of beef (such as flank steak or beef short ribs), sliced into thin strips
-2 tablespoons of gluten-free soy sauce
-1 tablespoon of Indian-style garam masala
-1 tablespoon of ground cumin
-1 tablespoon of coriander
-1 teaspoon of cayenne pepper
-1/4 cup of gluten-free beef broth
-1/4 cup of water
-1 tablespoon of vegetable oil
-1 onion, diced
-2 cloves of garlic, minced
-1 cup of gluten-free noodles (such as rice noodles or corn noodles)
-1 cup of Canadian-style bannock (see below for recipe)
-Fresh cilantro or scallions for garnish
-Instructions:
-
-Cook the gluten-free noodles according to the package instructions.
-In a large pot, heat the oil and sauté the onion and garlic until softened.
-Add the beef and cook until browned, then set aside.
-Add the garam masala, cumin, coriander, and cayenne pepper to the pot and cook for 1-2 minutes.
-Add the beef broth and water to the pot and bring to a boil.
-Add the cooked noodles and beef to the pot and simmer for 5-7 minutes.
-Serve the soup hot, topped with Canadian-style bannock and garnished with cilantro or scallions.
-Canadian-Style Bannock Recipe:
-
-2 cups of gluten-free all-purpose flour
-1/4 cup of sugar
-1/2 teaspoon of salt
-1/4 teaspoon of baking powder
-1/2 cup of vegetable oil
-1 cup of warm water
-Mix the dry ingredients together, then add the oil and water. Knead the dough for 5-7 minutes until smooth. Divide the dough into 8-10 pieces and shape into balls. Flatten each ball into a disk shape and fry in hot oil until golden brown.
-
-Gluten-Free Tips:
-
-Use gluten-free soy sauce and beef broth to ensure that the dish is gluten-free.
-Be sure to check the ingredients of the gluten-free noodles to ensure that they're gluten-free.
-If using store-bought broth, look for a brand that's certified gluten-free.
-Cultural Significance:
-
-Taiwanese-style beef noodle soup is a popular comfort food in Taiwan, often served with a variety of toppings.
-Indian-style spices, such as garam masala and cumin, add a warm and aromatic flavor to the dish.
-Canadian-style bannock is a traditional bread that's often served with soups and stews.
-This dish is a delicious and inclusive option that will surely impress your friends from different cultural backgrounds. The gluten-free ingredients ensure that the two friends with dietary restrictions can enjoy the dish as well. Happy cooking!
+<img src="<img alt="temp0_recipe_response" src="https://github.com/user-attachments/assets/f94db3ae-b666-4499-bc2c-db73639e6e7a" />
+" style="max-width:100%; height:auto;">
 
 </td>
 </tr>
