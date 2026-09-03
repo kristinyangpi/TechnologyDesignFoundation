@@ -27,9 +27,7 @@ First Attempt: Dog Agent 🐕
 | Temperature (1st try) | 1.2 Closer to stochastic |
 | Temperature (2nd try) | 0.2 Closer to deterministic |
 
-<sub>**Note:** First try(left image) with temperature closer to stochastic produced incoherent, unrelated word strings instead of dog-like responses. Switching temperature closer to deterministic fixed this(right image) — the model responded appropriately within the constraints. 
-
-**Takeaway:** Higher temperature at this model size can cause the response to lose coherence entirely rather than just adding variety, especially with unusual/creative constraints like "dog language."</sub>
+<sub>**Note:** First try(left image) with temperature closer to stochastic produced incoherent, unrelated word strings instead of dog-like responses. Switching temperature closer to deterministic fixed this(right image) — the model responded appropriately within the constraints. <br>**Takeaway:** Higher temperature at this model size can cause the response to lose coherence entirely rather than just adding variety, especially with unusual/creative constraints like "dog language."</sub>
 
 
 
