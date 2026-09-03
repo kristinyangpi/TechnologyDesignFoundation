@@ -59,8 +59,16 @@ The idea of an agent sandbox was completely new to me. Using [Agent Design Studi
 ### 🪞 Reflections
 Temperature controls *how much randomness* the model introduces, but it can't compensate for ambiguous instructions — and conversely, a well-scoped prompt seems to tolerate more randomness without falling apart. Going forward, I want to prioritize instruction clarity first, then treat temperature as a secondary tuning knob rather than the main lever for getting reliable output.
 
+Across all three experiments this week, the biggest factor in output quality wasn't any single setting — it was how **instructions and temperature interact**, rather than either one working alone.
 
-### ➡️ Next steps
-- 
+With vague instructions ("answer in dog language") and higher temperature, the agent produced incoherent, unrelated output. Lowering temperature alone fixed this, suggesting that vague instructions need lower temperature to stay usable — there's less "room" for the model to interpret creatively before it breaks down.
 
----
+With clear, specific instructions (the sous chef role), temperature didn't affect coherence at all — the agent stayed on-topic and useful at both 0 and 0.5. Instead, it shifted the *shape* of the response: lower temperature produced one deep, elaborated answer, while higher temperature produced a broader set of options.
+
+### 💡 Overall Conclusion
+
+- Instructions and temperature interact — neither one alone determines output quality
+- **Vague instructions + high temperature** → incoherent output (dog language test); lowering temperature fixed it
+- **Clear instructions (sous chef)** → stayed coherent at both temperature 0 and 0.5; temperature instead shifted response *shape* — one deep answer at 0, multiple broader options at 0.5
+- **Main takeaway:** temperature shapes style/structure safely only when instructions are already clear. Vague instructions leave temperature to fill gaps that should've been specified upfront
+- **Going forward:** prioritize instruction clarity first, treat temperature as a secondary tuning tool — not a fix for an underspecified task
