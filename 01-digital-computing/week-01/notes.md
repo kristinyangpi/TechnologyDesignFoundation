@@ -12,9 +12,9 @@ First Attempt:
 <table>
   <tr>
     <td><img width="1512" height="841" alt="first attempt" src="https://github.com/user-attachments/assets/6d307ca8-b7e3-4fcb-986e-21e63cdf2629" />
-<br><sub>Stochastic (before)</sub></td>
+<sub>Stochastic (before)</sub></td>
     <td><img width="1512" height="848" alt="second attempt" src="https://github.com/user-attachments/assets/d9cbb7f4-5f84-4336-be0a-a6e145d17ca2" />
-<br><sub>Deterministic (after)</sub></td>
+<sub>Deterministic (after)</sub></td>
   </tr>
 </table>
 | Setting | Value |
