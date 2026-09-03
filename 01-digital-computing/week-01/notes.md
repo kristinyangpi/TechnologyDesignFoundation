@@ -9,7 +9,7 @@ The idea of an agent sandbox was completely new to me. Using [Agent Design Studi
 
 
 ### 🧪 Experiments
-**## Prompt 1: Dog Agent** 🐕
+**Prompt 1: Dog Agent** 🐕
 
 <sub>I was just curious how the agent would behave if I asked it to behave like a non-human organism, rather than the usual human-like persona prompts.</sub>
 <table>
@@ -33,7 +33,8 @@ The idea of an agent sandbox was completely new to me. Using [Agent Design Studi
 
 
 
-<br> **##Prompt 2: Private Chef** 👨‍🍳
+<br> **Prompt 2: Private Chef** 👨‍🍳
+
 <img alt="second attempt" src="https://github.com/user-attachments/assets/0d5889ac-c3be-419b-a645-33cf933ac236" />
 
 | Setting | Value |
