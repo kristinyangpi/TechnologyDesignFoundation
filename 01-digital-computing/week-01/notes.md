@@ -33,7 +33,7 @@ The idea of an agent sandbox was completely new to me. Using [Agent Design Studi
 
 
 
-**Prompt 2: Private Chef** 👨‍🍳
+<br>**Prompt 2: Private Chef** 👨‍🍳
 <img alt="second attempt" src="https://github.com/user-attachments/assets/0d5889ac-c3be-419b-a645-33cf933ac236" />
 
 | Setting | Value |
