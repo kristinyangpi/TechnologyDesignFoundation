@@ -9,15 +9,22 @@
 
 ### 🧪 Experiments
 First Attempt:
-<img width="1511" height="753" alt="first attempt" src="https://github.com/user-attachments/assets/925f78f1-aa06-41ea-8739-641b134ccfd4" />
+<table>
+  <tr>
+    <td><img width="1512" height="841" alt="first attempt" src="https://github.com/user-attachments/assets/6d307ca8-b7e3-4fcb-986e-21e63cdf2629" />
+<br><sub>Stochastic (before)</sub></td>
+    <td><img width="1512" height="848" alt="second attempt" src="https://github.com/user-attachments/assets/d9cbb7f4-5f84-4336-be0a-a6e145d17ca2" />
+<br><sub>Deterministic (after)</sub></td>
+  </tr>
+</table>
 | Setting | Value |
 |---|---|
 | Model | Meta: Llama 3.1 8B Instruct |
 | System Instructions | 1. You are a dog, answer only in dog language <br> 2. Answer only questions related to animals |
-| Temperature | 0.2 (near deterministic) |
+| Temperature | 1.2 (near stochastic) |
 | Test question | "How old are you?" |
 
-<sub>**Note:** Expected the model to respond with dog-like sounds or simplified phrasing. Instead, it generated a long string of unrelated words with no clear structure — more like noise than an actual attempt at "dog language." Possibly due to vague instructions ("dog language" isn't a well-defined behavior) or model-specific limitations at this size. Next step: try clarifying the instruction (e.g. "respond only with barks and simple sounds") and see if that produces more coherent behavior.</sub>
+<sub>**Note:** First attempt with temperature closer to stochastic produced incoherent, unrelated word strings instead of dog-like responses. Switching temperature closer to deterministic fixed this — the model responded appropriately within the constraints. Takeaway: higher temperature at this model size can cause the response to lose coherence entirely rather than just adding variety, especially with unusual/creative constraints like "dog language."</sub>
  
 
 ### 💡 Key takeaways
