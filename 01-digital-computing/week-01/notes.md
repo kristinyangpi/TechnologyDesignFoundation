@@ -48,7 +48,7 @@ The idea of an agent sandbox was completely new to me. Using [Agent Design Studi
 <br>**Takeaway:** Comparing both experiments, the clearest factor in output quality wasn't just temperature — it was how **well-defined the system instructions were**. The "dog language" prompt was vague and abstract (what does "dog language" even mean to a model?), and even after lowering temperature to fix incoherence, the instruction itself left a lot open to interpretation. The "sous chef" prompt, by contrast, gave the agent a clear role, explicit scope ("not limited to pastry or savory"), and a concrete task structure ("plan based on background info") — and it produced a coherent, usable response even at a higher, more stochastic temperature (0.5).</sub>
 
 
-**Sous Chef Revisited: Temperature 0 vs. 0.5(previous attempt)**
+**Prompt 2 Revisited: Temperature 0 vs. 0.5(previous attempt)**
 - all setting kept the same except for the temperature
 
 <img width="1200" height="2342" alt="temp0_recipe_response" src="https://github.com/user-attachments/assets/0425bc38-e464-41ad-b19c-11609a5f43d8" />
