@@ -1,6 +1,4 @@
-# Intro
-
-#Kristin's Weekly Journal
+# Kristin's Weekly Journal
 VERY new to coding and trying to figure it all out through **Technology Design Foundation!**
 
 
