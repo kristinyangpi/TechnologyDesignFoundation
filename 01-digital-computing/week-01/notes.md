@@ -52,7 +52,8 @@ The idea of an agent sandbox was completely new to me. Using [Agent Design Studi
 - all setting kept the same except for the temperature
 
 <img width="1200" height="2342" alt="temp0_recipe_response" src="https://github.com/user-attachments/assets/0425bc38-e464-41ad-b19c-11609a5f43d8" />
-<sub>**Result:** At temperature 0, the agent produced a single, highly detailed fusion recipe (Taiwanese beef noodle soup + Indian spices + Canadian bannock) rather than the multiple-option list format from the 0.5 test. The response was longer, more structured, and included extra sections (cultural significance, gluten-free tips) that weren't present before. 
+
+<sub> **Result:** At temperature 0, the agent produced a single, highly detailed fusion recipe (Taiwanese beef noodle soup + Indian spices + Canadian bannock) rather than the multiple-option list format from the 0.5 test. The response was longer, more structured, and included extra sections (cultural significance, gluten-free tips) that weren't present before. 
 <br>**Takeaway:** Interesting that lower temperature here produced *more* elaborate output, not less — contrary to what I initially assumed about determinism meaning "safer" or "shorter" answers.</sub>
 
 ### 🪞 Reflections
