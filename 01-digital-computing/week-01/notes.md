@@ -53,6 +53,12 @@ Prompt 2: Private Chef 👨‍🍳
 
 **Sous Chef Revisited: Temperature 0 vs. 0.5(previous attempt)**
 
+<table>
+<tr>
+<td valign="top" width="50%">
+
+**Agent Studio settings**
+
 | Setting | Value |
 |---|---|
 | Model | Meta: Llama 3.1 8B Instruct |
@@ -61,9 +67,11 @@ Prompt 2: Private Chef 👨‍🍳
 | Test question | What should I cook for Friendsgiving this year with friends from different cultural backgrounds including Taiwan, India and Canada? Out of the 10 two of them are gluten free |
 
 </td>
-<td valign="top" width="60%">
+<td valign="top" width="50%">
 
-  <img width="1200" height="2342" alt="temp0_recipe_response" src="https://github.com/user-attachments/assets/e2016f40-f7bb-44d2-8319-f18f2b3bfff2" />
+<img width="1512" height="841" alt="second attempt" src="https://github.com/user-attachments/assets/9be3ceec-1017-4803-80f0-a6018b05836a" />
+
+
 </td>
 </tr>
 </table>
