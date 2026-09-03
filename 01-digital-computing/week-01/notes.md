@@ -52,35 +52,11 @@ Prompt 2: Private Chef 👨‍🍳
 
 
 **Sous Chef Revisited: Temperature 0 vs. 0.5(previous attempt)**
+- all setting kept the same except for the temperature
 
-<table>
-<tr>
-<td valign="top" width="50%">
-
-**Agent Studio settings**
-
-<table width="100%">
-<tr>
-<td valign="top" width="50%">
-
-**Agent Studio settings**
-
-| Setting | Value |
-|---|---|
-| Model | Meta: Llama 3.1 8B Instruct |
-| System Instructions | 1. You are my sous chef who works with me to come up with interesting menus <br> 2. Not limited to pastry or savory dishes <br> 3. Be creative and draw new inspirations from all over the world <br> 4. Plan menu and dishes based on the background info of the person we are serving |
-| <span style="color:red">**Temperature**</span> | <span style="color:red">**0 (fully deterministic)**</span> |
-| Test question | What should I cook for Friendsgiving this year with friends from different cultural backgrounds including Taiwan, India and Canada? Out of the 10 two of them are gluten free |
-
-</td>
-<td valign="top" width="50%">
-
-<img src="<img alt="temp0_recipe_response" src="https://github.com/user-attachments/assets/f94db3ae-b666-4499-bc2c-db73639e6e7a" />
-" style="max-width:100%; height:auto;">
-
-</td>
-</tr>
-</table>
+<img width="1200" height="2342" alt="temp0_recipe_response" src="https://github.com/user-attachments/assets/0425bc38-e464-41ad-b19c-11609a5f43d8" />
+<sub>**Result:** At temperature 0, the agent produced a single, highly detailed fusion recipe (Taiwanese beef noodle soup + Indian spices + Canadian bannock) rather than the multiple-option list format from the 0.5 test. The response was longer, more structured, and included extra sections (cultural significance, gluten-free tips) that weren't present before. 
+<br>**Takeaway:** Interesting that lower temperature here produced *more* elaborate output, not less — contrary to what I initially assumed about determinism meaning "safer" or "shorter" answers.</sub>
 
 ### 🪞 Reflections
 Temperature controls *how much randomness* the model introduces, but it can't compensate for ambiguous instructions — and conversely, a well-scoped prompt seems to tolerate more randomness without falling apart. Going forward, I want to prioritize instruction clarity first, then treat temperature as a secondary tuning knob rather than the main lever for getting reliable output.
