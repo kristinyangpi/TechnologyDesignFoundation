@@ -8,7 +8,8 @@
 - The idea of an agent sandbox was completely new to me. Using [Agent Design Studio](https://agentstudio.aroughidea.com) was my first time to actually explore what it means to build my own agent. Rather than just interacting with an existing AI model, I could experiment with how the agent behaves by writing my own system instructions, giving it a knowledge base, and playing around with settings like temperature and switching between models.
 
 ### 🧪 Experiments
-First Attempt:
+First Attempt: Dog Agent 🐕
+<sub>I was just curious how the agent would behave if I asked it to behave like a non-human organism, rather than the usual human-like persona prompts.</sub>
 <table>
   <tr>
     <td><img width="1512" height="841" alt="first attempt" src="https://github.com/user-attachments/assets/6d307ca8-b7e3-4fcb-986e-21e63cdf2629" />
@@ -22,8 +23,8 @@ First Attempt:
 |---|---|
 | Model | Meta: Llama 3.1 8B Instruct |
 | System Instructions | 1. You are a dog, answer only in dog language <br> 2. Answer only questions related to animals |
-| Temperature (1st try) | Closer to stochastic |
-| Temperature (2nd try) | Closer to deterministic |
+| Temperature (1st try) | 1.2 Closer to stochastic |
+| Temperature (2nd try) | 0.2 Closer to deterministic |
 
 <sub>**Note:** First attempt(left image) with temperature closer to stochastic produced incoherent, unrelated word strings instead of dog-like responses. Switching temperature closer to deterministic fixed this(right image) — the model responded appropriately within the constraints. Takeaway: higher temperature at this model size can cause the response to lose coherence entirely rather than just adding variety, especially with unusual/creative constraints like "dog language."</sub>
  
