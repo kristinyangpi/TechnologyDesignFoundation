@@ -9,6 +9,7 @@
 
 ### 🧪 Experiments
 First Attempt: Dog Agent 🐕
+
 <sub>I was just curious how the agent would behave if I asked it to behave like a non-human organism, rather than the usual human-like persona prompts.</sub>
 <table>
   <tr>
