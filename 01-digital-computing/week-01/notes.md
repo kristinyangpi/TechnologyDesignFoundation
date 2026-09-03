@@ -62,7 +62,8 @@ Prompt 2: Private Chef 👨‍🍳
 
 </td>
 <td valign="top" width="65%">
-<img width="1200" height="2342" alt="temp0_recipe_response" src="https://github.com/user-attachments/assets/e2016f40-f7bb-44d2-8319-f18f2b3bfff2" />
+
+  <img width="1200" height="2342" alt="temp0_recipe_response" src="https://github.com/user-attachments/assets/e2016f40-f7bb-44d2-8319-f18f2b3bfff2" />
 
 
 ### 🪞 Reflections
