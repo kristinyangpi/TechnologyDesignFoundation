@@ -16,6 +16,7 @@ First Attempt:
     <td><img width="1512" height="848" alt="second attempt" src="https://github.com/user-attachments/assets/d9cbb7f4-5f84-4336-be0a-a6e145d17ca2" />
 <sub>Deterministic (after)</sub></td>
   </tr>
+
 </table>
 | Setting | Value |
 |---|---|
