@@ -2,7 +2,7 @@
 VERY new to coding and trying to figure it all out through **Technology Design Foundation!**
 
 
-## Digital Computing
+## Computational Design
 
 [Week 8](01-digital-computing/week-08/notes.md)
 
