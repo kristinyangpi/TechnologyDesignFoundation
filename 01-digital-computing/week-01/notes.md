@@ -30,7 +30,7 @@ First Attempt: Dog Agent 🐕
 <sub>**Note:** First try(left image) with temperature closer to stochastic produced incoherent, unrelated word strings instead of dog-like responses. Switching temperature closer to deterministic fixed this(right image) — the model responded appropriately within the constraints. 
 **Takeaway:** Higher temperature at this model size can cause the response to lose coherence entirely rather than just adding variety, especially with unusual/creative constraints like "dog language."</sub>
 
- 
+<br>
 Second Attempt: Private Chef 👨‍🍳
 <img width="1512" height="841" alt="second attempt" src="https://github.com/user-attachments/assets/0d5889ac-c3be-419b-a645-33cf933ac236" />
 
