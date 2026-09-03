@@ -1,16 +1,22 @@
-# Week 1 <sub>Sept 1-7, 2026</sub>
+# Week 1
 
-## What I did
+<sub>📅 Sept 1–7, 2026</sub>
+
+---
+
+### 🔧 What I did
 - 
 
-## Key takeaways
+### 💡 Key takeaways
 - 
 
-## Challenges
+### 🚧 Challenges
 - 
 
-## Reflections
+### 🪞 Reflections
 - 
 
-## Next steps
+### ➡️ Next steps
 - 
+
+---
