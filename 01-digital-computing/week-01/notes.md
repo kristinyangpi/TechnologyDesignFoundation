@@ -1,6 +1,4 @@
-# Week 1
-
-**Dates:** Sept 1-7, 2026
+# Week 1 Sept 1-7, 2026
 
 ## What I did
 - 
