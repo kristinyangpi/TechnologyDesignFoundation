@@ -4,18 +4,18 @@ VERY new to coding and trying to figure it all out through **Technology Design F
 
 ## Digital Computing
 
-[Week 8](01-digital-computing/week-08)
+[Week 8](01-digital-computing/week-08/notes.md)
 
-[Week 7](01-digital-computing/week-07)
+[Week 7](01-digital-computing/week-07/notes.md)
 
-[Week 6](01-digital-computing/week-06)
+[Week 6](01-digital-computing/week-06/notes.md)
 
-[Week 5](01-digital-computing/week-05)
+[Week 5](01-digital-computing/week-05/notes.md)
 
-[Week 4](01-digital-computing/week-04)
+[Week 4](01-digital-computing/week-04/notes.md)
 
-[Week 3](01-digital-computing/week-03)
+[Week 3](01-digital-computing/week-03/notes.md)
 
-[Week 2](01-digital-computing/week-02)
+[Week 2](01-digital-computing/week-02/notes.md)
 
-[Week 1](01-digital-computing/week-01)
+[Week 1](01-digital-computing/week-01/notes.md)
