@@ -64,7 +64,9 @@ Prompt 2: Private Chef 👨‍🍳
 <td valign="top" width="60%">
 
   <img width="1200" height="2342" alt="temp0_recipe_response" src="https://github.com/user-attachments/assets/e2016f40-f7bb-44d2-8319-f18f2b3bfff2" />
-
+</td>
+</tr>
+</table>
 
 ### 🪞 Reflections
 Temperature controls *how much randomness* the model introduces, but it can't compensate for ambiguous instructions — and conversely, a well-scoped prompt seems to tolerate more randomness without falling apart. Going forward, I want to prioritize instruction clarity first, then treat temperature as a secondary tuning knob rather than the main lever for getting reliable output.
