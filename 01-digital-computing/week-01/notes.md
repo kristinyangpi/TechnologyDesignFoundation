@@ -1,4 +1,4 @@
-# Week 1 Sept 1-7, 2026
+# Week 1 <sub>Sept 1-7, 2026</sub>
 
 ## What I did
 - 
