@@ -7,8 +7,9 @@
 ### 🔧 What I did
 The idea of an agent sandbox was completely new to me. Using [Agent Design Studio](https://agentstudio.aroughidea.com) was my first time to actually explore what it means to build my own agent. Rather than just interacting with an existing AI model, I could experiment with how the agent behaves by writing my own system instructions, giving it a knowledge base, and playing around with settings like temperature and switching between models.
 
+
 ### 🧪 Experiments
-Prompt 1: Dog Agent 🐕
+**Prompt 1: Dog Agent** 🐕
 
 <sub>I was just curious how the agent would behave if I asked it to behave like a non-human organism, rather than the usual human-like persona prompts.</sub>
 <table>
@@ -32,8 +33,7 @@ Prompt 1: Dog Agent 🐕
 
 
 
-Prompt 2: Private Chef 👨‍🍳
-
+**Prompt 2: Private Chef** 👨‍🍳
 <img alt="second attempt" src="https://github.com/user-attachments/assets/0d5889ac-c3be-419b-a645-33cf933ac236" />
 
 | Setting | Value |
