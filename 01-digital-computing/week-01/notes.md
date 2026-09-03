@@ -77,5 +77,5 @@ With clear, specific instructions (the sous chef role), temperature didn't affec
 
 🔗 [My Agent Studio sandbox](https://agentstudio.aroughidea.com/a/LQlVjuHL43ykISHrlSEiBA)
 
-<img <img width="1024" height="1024" alt="agent-qr" src="https://github.com/user-attachments/assets/21f2f6cf-58d1-4df3-9a4d-f9b6bb61875b" style="max-width:100px; height:auto;"/>
+<img alt="agent-qr" src="https://github.com/user-attachments/assets/21f2f6cf-58d1-4df3-9a4d-f9b6bb61875b" style="max-width:100px; height:auto;">
 
