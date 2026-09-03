@@ -72,3 +72,9 @@ With clear, specific instructions (the sous chef role), temperature didn't affec
 - **Clear instructions (sous chef)** → stayed coherent at both temperature 0 and 0.5; temperature instead shifted response *shape* — one deep answer at 0, multiple broader options at 0.5
 - **Main takeaway:** temperature shapes style/structure safely only when instructions are already clear. Vague instructions leave temperature to fill gaps that should've been specified upfront
 - **Going forward:** prioritize instruction clarity first, treat temperature as a secondary tuning tool — not a fix for an underspecified task
+
+### 🔗 Access
+
+🔗 [Agent Studio sandbox](https://agentstudio.aroughidea.com/a/LQlVjuHL43ykISHrlSEiBA)
+
+<img width="1024" height="1024" alt="agent-qr" src="https://github.com/user-attachments/assets/44a45b73-f829-4880-8e9b-3b5d3b0e7e58" />
