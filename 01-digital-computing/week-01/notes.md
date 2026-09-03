@@ -16,16 +16,16 @@ First Attempt:
     <td><img width="1512" height="848" alt="second attempt" src="https://github.com/user-attachments/assets/d9cbb7f4-5f84-4336-be0a-a6e145d17ca2" />
 <sub>Deterministic (after)</sub></td>
   </tr>
-
 </table>
+
 | Setting | Value |
 |---|---|
 | Model | Meta: Llama 3.1 8B Instruct |
 | System Instructions | 1. You are a dog, answer only in dog language <br> 2. Answer only questions related to animals |
-| Temperature | 1.2 (near stochastic) |
-| Test question | "How old are you?" |
+| Temperature (1st try) | Closer to stochastic |
+| Temperature (2nd try) | Closer to deterministic |
 
-<sub>**Note:** First attempt with temperature closer to stochastic produced incoherent, unrelated word strings instead of dog-like responses. Switching temperature closer to deterministic fixed this — the model responded appropriately within the constraints. Takeaway: higher temperature at this model size can cause the response to lose coherence entirely rather than just adding variety, especially with unusual/creative constraints like "dog language."</sub>
+<sub>**Note:** First attempt(left image) with temperature closer to stochastic produced incoherent, unrelated word strings instead of dog-like responses. Switching temperature closer to deterministic fixed this(right image) — the model responded appropriately within the constraints. Takeaway: higher temperature at this model size can cause the response to lose coherence entirely rather than just adding variety, especially with unusual/creative constraints like "dog language."</sub>
  
 
 ### 💡 Key takeaways
