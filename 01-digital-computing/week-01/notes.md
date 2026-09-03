@@ -46,6 +46,22 @@ Prompt 2: Private Chef 👨‍🍳
 <sub>**Note:** The agent responded coherently and on-topic, suggesting a fusion menu (Korean-style tacos, Indian-style stuffed peppers, Taiwanese-style skewers) that incorporated each culture mentioned and accounted for the gluten-free constraint. Compared to the dog language test, this prompt was far more concrete and well-defined, which likely contributed to a much more usable, structured response even at a higher temperature.
 <br>**Takeaway:** Comparing both experiments, the clearest factor in output quality wasn't just temperature — it was how **well-defined the system instructions were**. The "dog language" prompt was vague and abstract (what does "dog language" even mean to a model?), and even after lowering temperature to fix incoherence, the instruction itself left a lot open to interpretation. The "sous chef" prompt, by contrast, gave the agent a clear role, explicit scope ("not limited to pastry or savory"), and a concrete task structure ("plan based on background info") — and it produced a coherent, usable response even at a higher, more stochastic temperature (0.5).</sub>
 
+<table>
+<tr>
+<td valign="top" width="35%">
+
+
+**Sous Chef Revisited: Temperature 0 vs. 0.5(previous attempt)**
+
+| Setting | Value |
+|---|---|
+| Model | Meta: Llama 3.1 8B Instruct |
+| System Instructions | 1. You are my sous chef who works with me to come up with interesting menus <br> 2. Not limited to pastry or savory dishes <br> 3. Be creative and draw new inspirations from all over the world <br> 4. Plan menu and dishes based on the background info of the person we are serving |
+| <span style="color:red">**Temperature**</span> | <span style="color:red">**0 (fully deterministic)**</span> |
+| Test question | What should I cook for Friendsgiving this year with friends from different cultural backgrounds including Taiwan, India and Canada? Out of the 10 two of them are gluten free |
+
+</td>
+<td valign="top" width="65%">
 <img width="1200" height="2342" alt="temp0_recipe_response" src="https://github.com/user-attachments/assets/e2016f40-f7bb-44d2-8319-f18f2b3bfff2" />
 
 
