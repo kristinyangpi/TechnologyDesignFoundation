@@ -49,7 +49,7 @@ The idea of an agent sandbox was completely new to me. Using [Agent Design Studi
 
 
 **Prompt 2 Revisited: Temperature 0 vs. 0.5(previous attempt)**
-- all setting kept the same except for the temperature
+*all setting kept the same except for the temperature*
 
 <img width="1200" height="2342" alt="temp0_recipe_response" src="https://github.com/user-attachments/assets/0425bc38-e464-41ad-b19c-11609a5f43d8" />
 
