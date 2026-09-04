@@ -16,6 +16,6 @@ VERY new to coding and trying to figure it all out through **Technology Design F
 
 [Week 3](01-digital-computing/week-03/notes.md)
 
-[Week 2](01-digital-computing/week-02/notes.md)
+[Week 2](01-computational-design/week-02/notes.md)
 
-[Week 1](01-digital-computing/week-01/notes.md)
+[Week 1](01-computational-design/week-01/notes.md)
