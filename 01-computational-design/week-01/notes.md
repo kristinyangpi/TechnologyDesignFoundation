@@ -1,4 +1,4 @@
-# Week 1
+# Week 2
 
 📅 Sept 1–7, 2026
 
@@ -79,6 +79,6 @@ With clear, specific instructions (the sous chef role), temperature didn't affec
 
 ---
 
-**Part Two: In Groups**
+**[Part Two: Group Project]**
 
 
