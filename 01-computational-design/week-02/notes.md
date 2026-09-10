@@ -122,6 +122,8 @@ These observations helped us filled out the agent's role card.
 | **Good points** | Final reminders were reasonable and helpful |
 | **Changes made** | Removed all "be friendly" instructions <br> Added to Interaction Loop: if user expresses worry/concern, give straightforward feedback <br> Added to Knowledge Base: identify context before giving personalized advice, without repeatedly asking what's already in the prompt <br> Temperature changed to 0.2 |
 
+trial 1 chatbot: [test it here](https://agentstudio.aroughidea.com/a/Bn2QScWwydznTs7PZsOKDA)
+
 **Trial 2**
 
 | | |
@@ -130,6 +132,8 @@ These observations helped us filled out the agent's role card.
 | **Good points** | Tone was more natural <br> Reflection and next-step suggestions were good and covered most situations |
 | **Changes made** | Added tips for future reference after drafting, plus suggested next steps toward the broader goal <br> Removed the overly deferential opening tone — sincerity should come from briefly explaining the situation, not just stating "sincere apology" <br> Temperature changed to 0.3 |
 
+trial 2 chatbot: [test it here](https://agentstudio.aroughidea.com/a/nG6Ya2KmgBILhFyVkqxOrQ)
+
 **Trial 3**
 
 | | |
@@ -137,11 +141,11 @@ These observations helped us filled out the agent's role card.
 | **Iteration points** | Didn't like the output, so moved to a tweaked version (Trial 4) <br> Agent gave feedback immediately after drafting, without waiting for user confirmation |
 | **Changes made** | Added to Outputs: do not give feedback or future suggestions until the user confirms the draft |
 
-**Trial 4 (Final Version)**
+trial 3 chatbot: [test it here](https://agentstudio.aroughidea.com/a/W8DYfCEeI74us-wg6IZmsg)
 
-| | |
-|---|---|
-| **Iteration points** | N/A |
+**Trial 4 (Final Version)** WHOOHOOOOO!!!🎉🎉
+
+[enjoy!](https://agentstudio.aroughidea.com/a/W8DYfCEeI74us-wg6IZmsg)
 
 ---
 
