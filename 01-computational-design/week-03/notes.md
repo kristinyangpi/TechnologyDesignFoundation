@@ -36,14 +36,13 @@ make the landing page just a "blank page" with colorful circles (size based on h
 <tr>
 <td valign="top" width="50%">
 
-
+<img width="4284" height="5712" alt="IMG_7818" src="https://github.com/user-attachments/assets/083ab10a-dee2-48b6-b1a1-d8d9b97e6b07" />
 
 
 </td>
 <td valign="top" width="50%">
 
 <img width="4284" height="5712" alt="IMG_7819" src="https://github.com/user-attachments/assets/869675a8-e5d5-4065-bf6e-e71588970d00" />
-<img width="4284" height="5712" alt="IMG_7818" src="https://github.com/user-attachments/assets/083ab10a-dee2-48b6-b1a1-d8d9b97e6b07" />
 
 
 
