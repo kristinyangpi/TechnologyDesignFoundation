@@ -2,7 +2,7 @@
 
 📅 Sept 1–7, 2026
 
-**[***Sept 1*** Part One: Self Exploration]**
+**[***Septemper 1*** Part One: Self Exploration]**
 
 ---
 
@@ -79,9 +79,12 @@ With clear, specific instructions (the sous chef role), temperature didn't affec
 
 [My Agent Studio sandbox](https://agentstudio.aroughidea.com/a/LQlVjuHL43ykISHrlSEiBA)
 
----
 
-**[***Sept 3*** Part Two: Group Project]**
+
+
+
+
+**[***September 3*** Part Two: Group Project]**
 
 ## Apology Letter Agent — Role Card Exercise & Iteration Trials
 
