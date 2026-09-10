@@ -1,9 +1,3 @@
-
-
-https://github.com/user-attachments/assets/33f7a08f-6758-40a1-a99e-ce28cf566484
-
-
-
 # Week 3
 
 📅 Sept 7–11, 2026
