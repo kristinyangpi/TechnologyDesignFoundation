@@ -2,7 +2,7 @@
 
 📅 Sept 1–7, 2026
 
-**[***Septemper 1*** Part One: Self Exploration]**
+## September 1 **[ Part One: Self Exploration]**
 
 ---
 
@@ -79,12 +79,12 @@ With clear, specific instructions (the sous chef role), temperature didn't affec
 
 [My Agent Studio sandbox](https://agentstudio.aroughidea.com/a/LQlVjuHL43ykISHrlSEiBA)
 
+----
 
 
 
 
-
-**[***September 3*** Part Two: Group Project]**
+## September 3 **[Part Two: Group Project]**
 
 ## Apology Letter Agent — Role Card Exercise & Iteration Trials
 
@@ -108,7 +108,8 @@ These observations helped us filled out the agent's role card.
 
 <img width="5712" height="4284" alt="IMG_7867 2" src="https://github.com/user-attachments/assets/47e22b34-90cf-4461-bed5-3153a47ba960" />
 
-<sub>See the [attached Google Doc]([https://docs.google.com/your-actual-link](https://docs.google.com/document/d/1ZT3gkIhnpdw2IUk5aRNxzBUzQpIE4JA6idL8PPhDUVQ/edit?tab=t.in5usk5h0coj)) for full details.</sub>
+[see google doc file for details](https://docs.google.com/document/d/1ZT3gkIhnpdw2IUk5aRNxzBUzQpIE4JA6idL8PPhDUVQ/edit?usp=sharing)
+
 ---
 
 ### 🧪 Trial & Error: Agent Iterations
