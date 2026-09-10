@@ -145,7 +145,7 @@ trial 3 chatbot: [test it here](https://agentstudio.aroughidea.com/a/W8DYfCEeI74
 
 **Trial 4 (Final Version)** WHOOHOOOOO!!!🎉🎉
 
-[enjoy!](https://agentstudio.aroughidea.com/a/W8DYfCEeI74us-wg6IZmsg)
+[enjoy!hope you dont need to use it often loll](https://agentstudio.aroughidea.com/a/W8DYfCEeI74us-wg6IZmsg)
 
 ---
 
