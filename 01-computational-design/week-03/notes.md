@@ -1,3 +1,9 @@
+
+
+https://github.com/user-attachments/assets/33f7a08f-6758-40a1-a99e-ce28cf566484
+
+
+
 # Week 3
 
 📅 Sept 7–11, 2026
@@ -52,6 +58,10 @@ make the landing page just a "blank page" with colorful circles (size based on h
 </table>
 ## Iteration 2 Input: 
 can you make the circles bouncing into each other when hovered, like its in a "screen container" and dont use actual faces just facial expression with the circle itself being the outline or "face". Can you make the entire style more "sketch" like, with the colors more pastel and with strokes as well as the facial expression, make it natural like handdrawn on paper
+
+## they move!!!
+https://github.com/user-attachments/assets/62d2e93e-c155-49b2-8f0e-8d19b4291955
+
 
 
 ---
