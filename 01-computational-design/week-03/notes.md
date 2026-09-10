@@ -26,7 +26,31 @@ build an app that helps users (aka Vicky😂) keep track of gift ideas(both boug
 </tr>
 </table>
 
+**notes:** the features are fine but i don't like the ui and color palette, as it doesn't give the welcoming and cheerful vibe as if you will experience receiving or giving gifts.
 
+## Iteration: 
+make the landing page just a "blank page" with colorful circles (size based on how close their birthday is coming up) representing each person with name written and a cute facial expression mimicing the look of the person. when name is clicked, reveal the person's gift ideas based on budget and time, preferences, and basic info like their birthday...etc.
+<img width="977" height="717" alt="截圖 2026-09-08 下午4 50 09" src="https://github.com/user-attachments/assets/2b8b4baf-2c53-4b39-adca-bb1c79c8afd7" />
+**notes:** I actually already had an image of what i wanted the app to look and also made a prototype with paper, but ! wanted to try explaining it the agent rather than providing the reference and see how close it would understand me. It turns out the second attempt was already quite close to what I had in mind! (as shown in comparison with my prototype here👇)
+<table width="100%">
+<tr>
+<td valign="top" width="50%">
+
+
+
+
+</td>
+<td valign="top" width="50%">
+
+<img width="4284" height="5712" alt="IMG_7819" src="https://github.com/user-attachments/assets/869675a8-e5d5-4065-bf6e-e71588970d00" />
+<img width="4284" height="5712" alt="IMG_7818" src="https://github.com/user-attachments/assets/083ab10a-dee2-48b6-b1a1-d8d9b97e6b07" />
+
+
+
+
+</td>
+</tr>
+</table>
 
 
 ---
