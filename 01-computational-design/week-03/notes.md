@@ -47,6 +47,7 @@ make the landing page just a "blank page" with colorful circles (size based on h
 ## Iteration 2 Input: 
 can you make the circles bouncing into each other when hovered, like its in a "screen container" and dont use actual faces just facial expression with the circle itself being the outline or "face". Can you make the entire style more "sketch" like, with the colors more pastel and with strokes as well as the facial expression, make it natural like handdrawn on paper
 
+01-computational-design/assets/aistudio app attemp2.mov
 
 
 
