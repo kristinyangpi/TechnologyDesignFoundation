@@ -60,7 +60,11 @@ make the landing page just a "blank page" with colorful circles (size based on h
 can you make the circles bouncing into each other when hovered, like its in a "screen container" and dont use actual faces just facial expression with the circle itself being the outline or "face". Can you make the entire style more "sketch" like, with the colors more pastel and with strokes as well as the facial expression, make it natural like handdrawn on paper
 
 ## they move!!!
-https://github.com/user-attachments/assets/62d2e93e-c155-49b2-8f0e-8d19b4291955
+
+
+https://github.com/user-attachments/assets/a78829ff-702f-462a-9277-f1fb9effbd5a
+
+
 
 
 
