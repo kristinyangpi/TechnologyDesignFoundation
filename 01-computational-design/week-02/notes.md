@@ -2,7 +2,7 @@
 
 📅 Sept 1–7, 2026
 
-**[Part One: Self Exploration]**
+**[Sept 1 Part One: Self Exploration]**
 
 ### 🔧 What I did
 The idea of an agent sandbox was completely new to me. Using [Agent Design Studio](https://agentstudio.aroughidea.com) was my first time to actually explore what it means to build my own agent. Rather than just interacting with an existing AI model, I could experiment with how the agent behaves by writing my own system instructions, giving it a knowledge base, and playing around with settings like temperature and switching between models.
@@ -79,6 +79,66 @@ With clear, specific instructions (the sous chef role), temperature didn't affec
 
 ---
 
-**[Part Two: Group Project]**
+**[Sept 3 Part Two: Group Project]**
 
+## Apology Letter Agent — Role Card Exercise & Iteration Trials
 
+---
+
+### 🎭 Role-Play Exercise
+
+Before training the agent, we performed the task manually within our group to understand the interaction firsthand:
+
+- **User:** Missed a coffee chat with a friend (not very close, also elder) who works at a company the user wants to apply to
+- **Writer's goal:** Help generate an apology letter
+- **Observers:** Two group members recorded the interaction on post-it notes
+
+### 👀 Observations
+<img width="5712" height="4284" alt="IMG_7852" src="https://github.com/user-attachments/assets/3522bb63-4456-46e5-9f7f-8c61c1be99ff" />
+
+- The writer immediately showed empathy — reassured the user it was okay and that they'd work out a solution together, before jumping into the task itself
+- **Key human vs. LLM difference:** Partway through, the group nearly ran out of things to say since the situation wasn't especially serious — but instead of stopping, **they kept the conversation going by sharing personal past experiences.** This kind of tangential, relationship-building exchange likely wouldn't happen naturally with an LLM interaction. If the user didn't need further assistance, the agent wouldn't continue to generate text.
+
+These observations helped us filled out the agent's role card. 
+
+<img width="5712" height="4284" alt="IMG_7867 2" src="https://github.com/user-attachments/assets/47e22b34-90cf-4461-bed5-3153a47ba960" />
+
+<sub>See the [attached Google Doc]([https://docs.google.com/your-actual-link](https://docs.google.com/document/d/1ZT3gkIhnpdw2IUk5aRNxzBUzQpIE4JA6idL8PPhDUVQ/edit?tab=t.in5usk5h0coj)) for full details.</sub>
+---
+
+### 🧪 Trial & Error: Agent Iterations
+
+**Trial 1 — Google Gemma 3 12B**
+
+| | |
+|---|---|
+| **Iteration points** | Words like "sincerest" felt overboard for a professional apology tone <br> 4th clarification question asked for the email's purpose, even though the initial prompt already stated wanting to reschedule <br> Tone was too agreeable — lacked reasoning behind word choices |
+| **Good points** | Final reminders were reasonable and helpful |
+| **Changes made** | Removed all "be friendly" instructions <br> Added to Interaction Loop: if user expresses worry/concern, give straightforward feedback <br> Added to Knowledge Base: identify context before giving personalized advice, without repeatedly asking what's already in the prompt <br> Temperature changed to 0.2 |
+
+**Trial 2**
+
+| | |
+|---|---|
+| **Iteration points** | "Sincerest" still felt overboard |
+| **Good points** | Tone was more natural <br> Reflection and next-step suggestions were good and covered most situations |
+| **Changes made** | Added tips for future reference after drafting, plus suggested next steps toward the broader goal <br> Removed the overly deferential opening tone — sincerity should come from briefly explaining the situation, not just stating "sincere apology" <br> Temperature changed to 0.3 |
+
+**Trial 3**
+
+| | |
+|---|---|
+| **Iteration points** | Didn't like the output, so moved to a tweaked version (Trial 4) <br> Agent gave feedback immediately after drafting, without waiting for user confirmation |
+| **Changes made** | Added to Outputs: do not give feedback or future suggestions until the user confirms the draft |
+
+**Trial 4 (Final Version)**
+
+| | |
+|---|---|
+| **Iteration points** | N/A |
+
+---
+
+### 💡 Takeaway
+
+The manual role-play exercise surfaced a subtle but important gap between human and AI interaction — humans naturally sustain low-stakes conversations through tangential, personal topics, which shaped how we scoped the agent's tone and pacing rather than trying to replicate that behavior directly. Iterating on temperature and instruction specificity (removing vague tone directives like "be friendly," adding explicit confirmation steps) got the agent from an overly formal, presumptuous first draft to a natural, appropriately paced final version by Trial 4.
