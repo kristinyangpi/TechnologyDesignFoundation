@@ -32,6 +32,7 @@ build an app that helps users (aka Vicky😂) keep track of gift ideas(both boug
 make the landing page just a "blank page" with colorful circles (size based on how close their birthday is coming up) representing each person with name written and a cute facial expression mimicing the look of the person. when name is clicked, reveal the person's gift ideas based on budget and time, preferences, and basic info like their birthday...etc.
 ## Iteration 1 Output: 
 <img width="977" height="717" alt="截圖 2026-09-08 下午4 50 09" src="https://github.com/user-attachments/assets/2b8b4baf-2c53-4b39-adca-bb1c79c8afd7" />
+
 **notes:** I actually already had an image of what i wanted the app to look and also made a prototype with paper, but ! wanted to try explaining to the agent rather than providing the reference and see how close it would understand me. It turns out the second attempt was already quite close to what I had in mind! (as shown in comparison with my prototype here👇)
 <table width="100%">
 <tr>
