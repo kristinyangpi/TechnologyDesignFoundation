@@ -75,6 +75,7 @@ https://github.com/user-attachments/assets/a78829ff-702f-462a-9277-f1fb9effbd5a
 <img width="1347" height="872" alt="截圖 2026-09-15 上午11 54 38" src="https://github.com/user-attachments/assets/dd82ec80-459c-4822-a9c2-f8a59947792d" />
 🔗 [View the live app](https://gift-reminder-app-ten.vercel.app/)
 
+
 <table width="100%">
 <tr>
 <td valign="top" width="50%">
@@ -99,7 +100,7 @@ https://github.com/user-attachments/assets/a78829ff-702f-462a-9277-f1fb9effbd5a
 - Understood the full pipeline: AI Studio → GitHub → Vercel → live public app
 - Vercel's auto-deploy behavior means any future commits to the repo will automatically reflect on the live site — no separate publish step needed after the initial setup
 
-### 📋 Assignment: Choose an API Path![Uploading 截圖 2026-09-15 上午11.54.38.png…]()
+### 📋 Assignment: Choose an API Path!
 
 - 
 
