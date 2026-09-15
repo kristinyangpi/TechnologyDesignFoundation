@@ -259,6 +259,7 @@ Update the agent's output behavior:
 </td>
 </tr>
 </table>
+
 - The iteration process itself was faster than expected, given that we already had a role card proven to work successfully in the Agent Studio sandbox — most of the heavy lifting (tone, boundaries, behavioral rules) was already solve. 
 
 - This round was mainly about translating that into AI Studio's format and fixing pacing issues rather than starting from scratch.
