@@ -195,6 +195,7 @@ The user missed a coffee chat with someone in their professional network and is 
 - Do not exaggerate the user's seniority or contribution
 - Use placeholders when key facts are missing
 - Distinguish between editing existing facts vs. suggesting facts the user should verify
+
 <table width="100%">
 <tr>
 <td valign="top" width="50%">
@@ -211,7 +212,53 @@ The user missed a coffee chat with someone in their professional network and is 
 </td>
 </tr>
 </table>
-## Prompt 3: Iteration
+
+## Promt 3: Iteration
+
+**Problems**
+- Agent front-loaded everything at once (mentor reassurance + draft + feedback + alternative phrasing) in a single response, instead of following the interaction loop from the role card
+- Did not wait for user edits before giving feedback
+
+**Changes Made**
+- Added explicit conversation flow rules to enforce turn-by-turn pacing:
+  - Respond conversationally first; only draft once enough context is given
+  - Share one draft at a time, without feedback or alternatives attached
+  - Wait for the user's response before offering feedback or revisions
+  - Do not output multiple sections (mentor take + draft + feedback + alternatives) in a single response unless explicitly asked
+ <img width="1367" height="867" alt="截圖 2026-09-15 下午1 29 27" src="https://github.com/user-attachments/assets/16c38538-6232-46ec-a7ae-cec887c7e37c" />
+
+## Prompt 4: Iteration
+Update the agent's output behavior:
+
+1. In the right-side "Advisor Workspace" panel, only show the email 
+   content itself — no headers, mentor commentary, feedback, or 
+   alternative phrasing alongside it. Just the draft email, clean.
+
+2. Before generating any draft, first respond with comfort/reassurance 
+   for the user's situation, and ask what tone they'd prefer for the 
+   email (e.g. formal, casual, warm) and confirm they're ready for a 
+   draft. Only generate the email once the user responds with their 
+   preferred tone or gives permission to proceed.
+
+## Final Outcome:
+<table width="100%">
+<tr>
+<td valign="top" width="50%">
+
+**landing page: with empathy shown in first place, followed by specifications on email drafting tone**
+<img width="1363" height="811" alt="截圖 2026-09-15 下午1 34 28" src="https://github.com/user-attachments/assets/a342718e-d635-4617-aa86-c6dcedb1659e" />
+
+
+</td>
+<td valign="top" width="50%">
+
+**Email drafted according to user's request, user could edit on the right panel**
+<img width="1355" height="778" alt="截圖 2026-09-15 下午1 35 46" src="https://github.com/user-attachments/assets/5509dd8d-10e5-49bd-a425-39c5e3b8a204" />
+
+  
+</td>
+</tr>
+</table>
 
 ---
 
