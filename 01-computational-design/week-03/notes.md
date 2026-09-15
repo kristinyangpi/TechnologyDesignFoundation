@@ -195,7 +195,23 @@ The user missed a coffee chat with someone in their professional network and is 
 - Do not exaggerate the user's seniority or contribution
 - Use placeholders when key facts are missing
 - Distinguish between editing existing facts vs. suggesting facts the user should verify
+<table width="100%">
+<tr>
+<td valign="top" width="50%">
 
+**landing page:**
+<img width="1367" height="812" alt="截圖 2026-09-15 中午12 42 52" src="https://github.com/user-attachments/assets/1e89316b-bedd-4aac-aeee-9f4763ba03ee" />
+
+</td>
+<td valign="top" width="50%">
+
+**script/scenario chosen:**
+<img width="1354" height="814" alt="截圖 2026-09-15 中午12 43 39" src="https://github.com/user-attachments/assets/f6d0c228-6d4b-4921-ba3d-c0cb62b781fa" />
+  
+</td>
+</tr>
+</table>
+## Prompt 3: Iteration
 
 ---
 
