@@ -1,6 +1,4 @@
-# Week 4
-
-<sub>📅 Sept 15–18, 2026</sub>
+# Week 4 📅 Sept 15–18, 2026
 
 ---
 
