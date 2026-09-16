@@ -4,16 +4,16 @@ VERY new to coding and trying to figure it all out through **Technology Design F
 
 ## Computational Design
 
-[Week 8](01-digital-computing/week-08/notes.md)
+[Week 8](01-computational-design/week-08/notes.md)
 
-[Week 7](01-digital-computing/week-07/notes.md)
+[Week 7](01-computational-design/week-07/notes.md)
 
-[Week 6](01-digital-computing/week-06/notes.md)
+[Week 6](01-computational-design/week-06/notes.md)
 
-[Week 5](01-digital-computing/week-05/notes.md)
+[Week 5](01-computational-design/week-05/notes.md)
 
-[Week 4](01-digital-computing/week-04/notes.md)
+[Week 4](01-computational-design/week-04/notes.md)
 
-[Week 3](01-digital-computing/week-03/notes.md)
+[Week 3](01-computational-design/week-03/notes.md)
 
 [Week 2](01-computational-design/week-02/notes.md)
