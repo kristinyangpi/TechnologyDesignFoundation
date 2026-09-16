@@ -1,6 +1,5 @@
 # Week 4 📅 Sept 15–18, 2026
 
----
 
 ### 🔧 Sept 15 — Vibe in VS Code + Agent, Publish it to GitHub, then deploy to Vercel.
 
