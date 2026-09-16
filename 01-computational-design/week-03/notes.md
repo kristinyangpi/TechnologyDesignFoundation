@@ -261,9 +261,9 @@ Update the agent's output behavior:
 </table>
 
 - The iteration process itself was faster than expected, given that we already had a role card proven to work successfully in the Agent Studio sandbox — most of the heavy lifting (tone, boundaries, behavioral rules) was already solve. 
-
 - This round was mainly about translating that into AI Studio's format and fixing pacing issues rather than starting from scratch.
 
+🔗 [View the live letter writing assistant](https://letter-writing-assistant-ten.vercel.app/)
 ### 💡 Weekly Reflection
 
 This week moved from building agents in isolated sandboxes to actually deploying one as a live, public-facing app — a meaningful jump from "does this respond correctly" to "does this work reliably for someone else, on their own device, with no guidance from me." The AI Studio → GitHub → Vercel pipeline demystified deployment quite a bit: publishing isn't a one-time event, it's a connected loop where every commit automatically updates the live app, which made iterating on both the app's functionality and its visual style (the Minecraft-pixelated pass) feel much lower-stakes than expected.
