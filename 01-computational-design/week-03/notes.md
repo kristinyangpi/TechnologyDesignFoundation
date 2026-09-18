@@ -6,7 +6,7 @@
 
 ### 🔧 Sept 8 — Building an App Using AI Studio
 
-## Prompt:
+## Prompt: I wanted to first test how closely AI Studio can translate a simple verbal description into the app I imagined
 build an app that helps users (aka Vicky😂) keep track of gift ideas(both bought and handmade), set upcoming birthday reminders for friends, family, partner, so user can easily manage their budget /time and never miss a birthday or holiday gift again.
 ## What it built:
 <table width="100%">
