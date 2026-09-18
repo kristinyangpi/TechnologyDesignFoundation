@@ -99,6 +99,9 @@ https://github.com/user-attachments/assets/a78829ff-702f-462a-9277-f1fb9effbd5a
 **Key takeaways**
 - Understood the full pipeline: AI Studio → GitHub → Vercel → live public app
 - Vercel's auto-deploy behavior means any future commits to the repo will automatically reflect on the live site — no separate publish step needed after the initial setup
+# 💡 Reflection
+
+It really surprised me how efficient AI can be — generating a thorough role card that restricts its own behavior so it doesn't make assumptions or add new features without telling the designer. It feels both useful and a little dangerous at the same time, and it made me more aware of the mindset I need as a designer using these tools: leaning on them to work more efficiently, without relying on them for creativity itself.
 
 ### 📋 Assignment: Letter Writing Assistant
 ## Prompt 1: Without Role Card
