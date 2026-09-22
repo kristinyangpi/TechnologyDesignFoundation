@@ -6,7 +6,7 @@ VERY new to coding and trying to figure it all out through **Technology Design F
 
 <table width="100%">
 <tr>
-<td valign="top" width="45%">
+<td valign="top" width="50%">
 
 ## Mini-Me
 
@@ -17,8 +17,7 @@ VERY new to coding and trying to figure it all out through **Technology Design F
 [Week 2](01-computational-design/week-02/notes.md)
 
 </td>
-<td width="10%"></td>
-<td valign="top" width="45%">
+<td valign="top" width="50%">
 
 [Week 8](01-computational-design/week-08/notes.md)
 
