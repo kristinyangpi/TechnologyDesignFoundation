@@ -7,8 +7,8 @@ VERY new to coding and trying to figure it all out through **Technology Design F
 
 <table width="100%">
 <tr>
-<td valign="top" width="50%">
-
+<td valign="top" width="50%" style="padding-right: 30px;">
+  
   ## Mini-Me
   
 [Week 4](01-computational-design/week-04/notes.md)
