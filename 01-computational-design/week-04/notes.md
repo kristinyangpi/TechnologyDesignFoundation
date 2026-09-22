@@ -27,6 +27,7 @@ I find **Plan mode** works really well for me since I'm new to this — it lets 
 During the previous week, I ran into trouble getting my API key to work with the letter-writing assistant. I tried troubleshooting by asking Claude directly, but since it wasn't connected to my project files, it couldn't go through the code firsthand — I had to manually explain everything, which made debugging slow and imprecise.
 <img width="1362" height="812" alt="截圖 2026-09-15 中午12 49 17" src="https://github.com/user-attachments/assets/0a0f08e6-07d0-4ac6-bc08-8793ec07ba33" />
 ⬆️ Didn't have the exact screenshot of letter-writing assistant reporting API error, but I had to go back and forth between Claude and AI Studio and fix errors one by one.
+
 After learning how to connect everything into one pipeline (VS Code + Claude Code + GitHub + Vercel), I had Claude Code work directly within VS Code to help identify the API key issue. This time, it was able to find the bug and fix it directly — without me needing to describe the problem manually.
 <img width="1256" height="716" alt="截圖 2026-09-21 晚上8 46 23" src="https://github.com/user-attachments/assets/f6453462-55a1-4250-837e-5c02bbf65000" />
 ⬆️ Had Claude doublecheck and confirmed API is working!
