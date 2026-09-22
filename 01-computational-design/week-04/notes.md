@@ -11,14 +11,11 @@
 <img width="1154" height="815" alt="截圖 2026-09-15 下午4 53 58" src="https://github.com/user-attachments/assets/eb085a1c-4011-4d3d-b1da-634a5f2a8f1f" />
 
 **Settings**
-
-| Setting | What it controls | How to use it |
-|---|---|---|
-| **Permission mode** | How much confirmation it needs before making changes | Use **Plan** mode to have it outline an approach and wait for approval, or **Manual** to approve each edit individually. Avoid **Edit automatically** or **Auto** while still learning the tool. |
-| **Model** | Which AI model handles requests | Click the model name in the interface, or type `/model` |
-| **Effort** | How much time it spends reasoning before responding — higher effort is slower but more thorough | Accessible through the mode menu, or type `/effort` |
-| **CLAUDE.md (memory file)** | Project-specific context Claude automatically loads at the start of every session | Create a `CLAUDE.md` file in your project root describing your tech stack, conventions, or goals |
-
+| Mode | Behavior |
+|---|---|
+| **Plan** | Describes a plan and waits for your approval before acting |
+| **Manual** | Asks for approval before each individual edit |
+| **Auto / Edit automatically** | Makes changes without asking first — avoid while still learning the tool |
 
 
 **Key takeaways**
