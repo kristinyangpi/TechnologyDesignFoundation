@@ -4,7 +4,7 @@ VERY new to coding and trying to figure it all out through **Technology Design F
 
 ## Computational Design
 
-
+<table>
 <tr>
 <td valign="top" width="50%">
   
