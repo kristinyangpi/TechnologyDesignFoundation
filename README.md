@@ -5,9 +5,8 @@ VERY new to coding and trying to figure it all out through **Technology Design F
 ## Computational Design
 
 
-<table width="100%">
 <tr>
-<td valign="top" width="50%" style="padding-right: 30px;">
+<td valign="top" width="50%">
   
   ## Mini-Me
   
