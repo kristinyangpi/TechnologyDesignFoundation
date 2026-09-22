@@ -23,6 +23,7 @@
 I find **Plan mode** works really well for me since I'm new to this — it lets me understand the reasoning behind each decision it makes before anything happens. Whereas for simpler, more specific changes (like adjusting typography or layout), **Manual mode** allows a faster workflow while still keeping my permission in the loop.
 
 **Challenges**
+
 During the previous week, I ran into trouble getting my API key to work with the letter-writing assistant. I tried troubleshooting by asking Claude directly, but since it wasn't connected to my project files, it couldn't go through the code firsthand — I had to manually explain everything, which made debugging slow and imprecise.
 <img width="1362" height="812" alt="截圖 2026-09-15 中午12 49 17" src="https://github.com/user-attachments/assets/0a0f08e6-07d0-4ac6-bc08-8793ec07ba33" />
 ⬆️ Didn't have the exact screenshot of letter-writing assistant reporting API error, but I had to go back and forth between Claude and AI Studio and fix errors one by one.
@@ -31,6 +32,7 @@ After learning how to connect everything into one pipeline (VS Code + Claude Cod
 ⬆️ Had Claude doublecheck and confirmed API is working!
 
 **Key takeaways**
+
 - Having the AI assistant directly integrated into the code editor (rather than a separate chat window) streamlined the whole workflow: build, test, troubleshoot, and publish all happen in one connected environment
 - Connecting GitHub/Git through the assistant itself simplified authentication and project syncing, rather than manually managing git commands
 
