@@ -19,6 +19,7 @@
 | **Auto / Edit automatically** | Makes changes without asking first — avoid while still learning the tool |
 
 **💭 Notes on Permission Modes**
+
 I find **Plan mode** works really well for me since I'm new to this — it lets me understand the reasoning behind each decision it makes before anything happens. Whereas for simpler, more specific changes (like adjusting typography or layout), **Manual mode** allows a faster workflow while still keeping my permission in the loop.
 
 **Challenges**
