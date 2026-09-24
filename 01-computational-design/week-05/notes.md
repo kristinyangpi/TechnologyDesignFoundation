@@ -28,7 +28,8 @@
 Focus: Object Detection and Pose Estimation
 
 **What we did**
-- [placeholder]
+- Object detection
+- Pose estimation
 
 **Settings**
 
