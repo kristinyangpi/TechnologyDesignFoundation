@@ -41,6 +41,7 @@ Focus: Object Detection and Pose Estimation
 | Knowledge Base | [placeholder] |
 
 object detection training test 1: [here](https://teachablemachine.withgoogle.com/models/icHSrioDc/)
+
 **Key takeaways**
 - [placeholder]
 
