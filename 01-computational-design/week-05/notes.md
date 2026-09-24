@@ -2,7 +2,7 @@
 
 ---
 
-### 🔧 Sept 22 — Intro to Computer Vision
+### 🔧 Sept 22 — Open Your Eyes 👀: Intro to Computer Vision
 
 **What we did**
 - [placeholder]
