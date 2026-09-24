@@ -1,6 +1,4 @@
-# Week 5
-
-<sub>📅 Sept 21-25</sub>
+# Week 5 📅 Sept 21-25
 
 ---
 
