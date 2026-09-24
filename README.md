@@ -19,7 +19,7 @@ VERY new to coding and trying to figure it all out through **Technology Design F
 </td>
 <td valign="top" width="50%">
 
-## Computer Digital Twins
+## Digital Twins
 
 [Week 8](01-computational-design/week-08/notes.md)
 
