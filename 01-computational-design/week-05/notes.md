@@ -12,7 +12,7 @@
 - exercise: pretending to be the transmitter of Convolutional Neural Networks (CNNs) in translating each stage of computational representations
 <img width="657" height="535" alt="截圖 2026-09-29 下午1 39 38" src="https://github.com/user-attachments/assets/3af526b8-b2c6-4a79-a5b4-aa94b58c6c0a" />
 
---
+---
 
 **Assignment: Set up projects workspace with coding agents in VS Code**
 
