@@ -32,11 +32,11 @@
 
 **Key takeaways**
 - Model/effort assignment isn't uniform — lighter, faster models (Luna, low effort) are used for investigation and documentation, while the Reviewer intentionally gets the strongest model and highest reasoning effort, since its job is to critically evaluate rather than just produce more code
-- The Explorer is explicitly barred from making changes — exploration only authorizes explaining findings and requesting permission, never skipping straight to building
-- Separating responsibilities this way mirrors a real team structure (research → build → QA → docs) rather than treating the AI as one undifferentiated assistant
+- The Explorer is explicitly restricted from making changes — exploration only authorizes explaining findings and requesting permission, never skipping straight to building
+- 🌟Separating responsibilities this way mirrors a real team structure (research → build → QA → docs) rather than treating the AI as one undifferentiated assistant
 
 **Challenges**
-- [placeholder]
+- Understanding file path notation like `~/.codex/config.toml` — specifically what `~` means (a shortcut for the home folder) and why the `.codex` folder needed to stay at the home folder level rather than inside the `Projects` folder
 
 
 ---
