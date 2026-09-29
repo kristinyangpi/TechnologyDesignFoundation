@@ -60,8 +60,8 @@ Focus: Object Detection and Pose Estimation
 
 | Sample | Image | Object |
 |---|---|---|
-| Sample 1 | ![Peanut butter pretzel](../assets/week-XX/sample-01-pretzel.png) | Peanut butter pretzel |
-| Sample 2 | ![Watch](../assets/week-XX/sample-02-watch.png) | Watch |
+| Sample 1 | <img width="339" height="612" alt="截圖 2026-09-24 下午4 48 22" src="https://github.com/user-attachments/assets/da9a4ed1-0cf0-4131-bfcf-423dffbd539e" /> | Peanut butter pretzel |
+| Sample 2 | <img width="323" height="598" alt="截圖 2026-09-24 下午4 49 03" src="https://github.com/user-attachments/assets/46bc0759-fdd4-4f93-bee1-806004b136b4" /> | Watch |
 
 **Problem**
 It was difficult to show the object without also showing my hand, which made detection confusing for the model. Since my hand was present in the training data for the watch dataset, the model started detecting a bare hand (with no watch) as a "watch" — it had learned to associate the hand itself with that class, rather than the watch specifically.
