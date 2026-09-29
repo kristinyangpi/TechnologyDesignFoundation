@@ -12,20 +12,30 @@
 - exercise: pretending to be the transmitter of Convolutional Neural Networks (CNNs) in translating each stage of computational representations
 <img width="657" height="535" alt="截圖 2026-09-29 下午1 39 38" src="https://github.com/user-attachments/assets/3af526b8-b2c6-4a79-a5b4-aa94b58c6c0a" />
 
-**Settings**
+**Assignment: Set up projects workspace with coding agents in VS Code**
 
-| Setting | Value |
-|---|---|
-| Model | [placeholder] |
-| System Instructions | [placeholder] |
-| Temperature | [placeholder] |
-| Knowledge Base | [placeholder] |
+- Set up a VS Code project workspace, following the guide: 🔗 [OYE workspace setup guide](https://github.com/kommanderpi/OYE)
+- Chose **Codex** over Claude Code for this setup, due to its higher token limits
+- Configured four specialized agent roles, each with distinct responsibilities, models, and reasoning effort:
+
+| Agent | Responsibility | Model | Reasoning Effort |
+|---|---|---|---|
+| **Explorer** | Investigates the project — files, dependencies, code — before any changes are made. Reports findings and recommended approach; does not build | gpt-5.6-luna | Low |
+| **Builder** | Implements the approved work; only begins after findings are explained and the user approves | gpt-5.6-terra | Medium |
+| **Reviewer** | Checks the Builder's work for bugs, unclear logic, unnecessary complexity, and missing requirements | gpt-5.6-sol | High |
+| **Documenter** | Documents what was built, how it's structured, and how to use it | gpt-5.6-luna | Low |
+
+- Workflow enforced across all agents: **Explore → Explain Findings → Ask Permission → Build → Review → Document**
+- Set up `AGENTS.md` to define shared workflow instructions, and individual `.toml` config files per agent under `~/.codex/agents/` to define each agent's model and behavior
 
 **Key takeaways**
-- [placeholder]
+- Model/effort assignment isn't uniform — lighter, faster models (Luna, low effort) are used for investigation and documentation, while the Reviewer intentionally gets the strongest model and highest reasoning effort, since its job is to critically evaluate rather than just produce more code
+- The Explorer is explicitly barred from making changes — exploration only authorizes explaining findings and requesting permission, never skipping straight to building
+- Separating responsibilities this way mirrors a real team structure (research → build → QA → docs) rather than treating the AI as one undifferentiated assistant
 
 **Challenges**
 - [placeholder]
+
 
 ---
 
