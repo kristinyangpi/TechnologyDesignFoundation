@@ -64,6 +64,7 @@ Focus: Object Detection and Pose Estimation
 | Sample 2 | <img width="323" height="598" alt="截圖 2026-09-24 下午4 49 03" src="https://github.com/user-attachments/assets/46bc0759-fdd4-4f93-bee1-806004b136b4" /> | Watch |
 
 **Problem**
+
 It was difficult to show the object without also showing my hand, which made detection confusing for the model. Since my hand was present in the training data for the watch dataset, the model started detecting a bare hand (with no watch) as a "watch" — it had learned to associate the hand itself with that class, rather than the watch specifically.
 <table width="100%">
 <tr>
@@ -111,10 +112,12 @@ It was difficult to show the object without also showing my hand, which made det
 </table>
 
 **Observation**
+
 This shows **the model only detects pose, not facial expression or identity** — when I did the same pose as Vicky, it classified me as "Vicky" instead of "Kristin." This means the classes should be labeled based on the pose itself (e.g. "hands down" vs. "hand raised") rather than by person, since the model is learning body position, not who's in frame.
 
 
 **Key takeaways**
+
 Both tests point to the same underlying lesson: 
 A model only learns what's actually distinguishable in the training data, not what the label implies. The object detection test learned "hand + watch = watch," so a bare hand alone triggered a false positive — and the motion classifier learned "this specific pose = Kristin," so the same pose performed by someone else got misclassified. In both cases, the labels I chose ("watch," "Kristin") suggested a much narrower, more specific concept than what the model was actually able to isolate from the images. Going forward, class labels should describe exactly what's visually consistent and controllable in the training data — the pose, the object in isolation — rather than a broader category (a name, an object class) that depends on things the dataset doesn't actually hold constant.
 
@@ -124,21 +127,30 @@ A model only learns what's actually distinguishable in the training data, not wh
 ## Object Detection Training — Peach & Soda Dataset 🍑 🥤
 
 **What I did**
+
 Applying the takeaway from the previous test, I built a more varied training set for peach and soda — capturing each object in different settings: on a plain table background, held in my hand, close-up, farther from the camera, and inside a bowl. The goal was to help the model generalize "peach" and "soda" across different contexts rather than tying the label to one specific setup.
 
 **Observation**
+
 The first round of training still sometimes struggled to differentiate between the two classes. Accuracy improved once I added a **"no food" class** — a plain table, background, and empty bowl with no food or object present at all. This gave the model an explicit "nothing" reference point to compare against, rather than forcing it to classify every frame as either peach or soda by default.
 
-## 📊 Before & After: Peach & Soda Dataset
+**Before & After: Peach & Soda Dataset**
 
 | | Before | After |
 |---|---|---|
-| **Training classes** | Peach, Soda | Peach, Soda, **Blank (no object)** |
-| **Image variety** | Object in different settings (table, hand, close-up, far, bowl) | Same variety, plus a blank/empty version of each setting |
+| **Training classes** | Peach, Soda, snack, egg | Peach, Soda, **Blank (no object)** |
+| **Image variety** | Object in different settings (table, hand, close-up, far, bowl) <img width="224" height="224" alt="1" src="https://github.com/user-attachments/assets/e57282d9-d318-45f0-8faa-0b3c78a9fb5e" /><img width="224" height="224" alt="78" src="https://github.com/user-attachments/assets/900515cb-b23b-4a0a-8fdf-30010d72e515" /><img width="224" height="224" alt="174" src="https://github.com/user-attachments/assets/6beb539e-b379-458b-8b04-a69df81ffdb3" /><img width="224" height="224" alt="430" src="https://github.com/user-attachments/assets/1f799320-b59e-4311-8110-38f7746f8012" />
+
+
+ | Same variety, plus a blank/empty version of each setting<img width="224" height="224" alt="98" src="https://github.com/user-attachments/assets/f92a1f67-5ea6-4df4-b40a-64ac65f3c415" />
+<img width="224" height="224" alt="41" src="https://github.com/user-attachments/assets/ea57bf72-ca29-4ffc-a79e-de10eaa5411c" />
+<img width="224" height="224" alt="3" src="https://github.com/user-attachments/assets/cc21063c-2fa7-49e7-8d35-8362280803d2" />
+ |
 | **Result** | Sometimes difficult to differentiate between peach and soda | Differentiated properly — model had a clear "nothing" reference to contrast against |
 | **Key change** | — | Added a negative/blank class so the model wasn't forced to guess between only two positive labels |
 
 **Takeaway**
+
 Diversifying the training images across settings (distance, context, close-up) helped the model generalize the object itself — but just as important was giving it a negative class (empty scene) so it had something to contrast against. Without a "nothing" example, the model may default to guessing between the only two labels it knows, even when neither is actually present.
 
 ## A trained pose classifier 🔗 [here](https://teachablemachine.withgoogle.com/models/CmWSWobAH/)
