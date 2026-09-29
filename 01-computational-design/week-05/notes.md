@@ -160,6 +160,20 @@ Diversifying the training images across settings (distance, context, close-up) h
 **Observation**
 The model doesn't detect fine details like mouth movement or finger positioning — it only picks up on face and arm position. Because of this, I had to differentiate "eating" from "finished eating" using distinct hand positions (e.g. different arm raised) rather than relying on something like an open mouth or a specific hand gesture, since the model isn't sensitive enough to catch that level of detail.
 
+### 🎮 Hamburger Eating Game — Applying the Pose Detection Model
+
+Using the trained pose detection model and dataset, I built a small interactive game: 🔗 [Pose Hamburger Game](https://kristinyangpi-pose-hamburger-game.vercel.app/)
+
+**How it works**
+1. Raise left hand to mouth → starts "eating"
+2. Burger appears on screen and gets eaten
+3. Raise right hand in a thumbs up → finishes the round
+4. Score +1
+
+
+**Key takeaway**
+
+This was a direct application of the earlier pose detection findings — since the model can't detect fine details like an open mouth or finger positioning, the game's interaction design had to work around that limitation rather than fight it. Using two clearly distinct, large-scale poses (left hand to mouth vs. right-hand thumbs up) instead of subtle gestures made the detection reliable enough to actually build a playable game on top of it.
 ---
 
 ### 💡 Weekly Reflection
