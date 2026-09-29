@@ -36,7 +36,7 @@
 - 🌟Separating responsibilities this way mirrors a real team structure (research → build → QA → docs) rather than treating the AI as one undifferentiated assistant
 
 **Challenges**
-- Understanding file path notation like `~/.codex/config.toml` — specifically what `~` means (a shortcut for the home folder= [your home folder]/.codex/config.toml) and why the `.codex` folder needed to stay at the home folder level rather than inside the `Projects` folder
+- Understanding file path notation like `~/.codex/config.toml` — specifically what `~` means (a shortcut for the home folder aka **[your home folder]/.codex/config.toml**) and why the `.codex` folder needed to stay at the home folder level rather than inside the `Projects` folder
 
 
 ---
@@ -45,19 +45,47 @@
 Focus: Object Detection and Pose Estimation
 
 **What we did**
-- Object detection
-- Pose estimation
+- Object detection: How it works, what a good dataset looks like, real-life application, train model in Teachable Machine
+<img width="798" height="450" alt="good eg obj detection" src="https://github.com/user-attachments/assets/a4d44039-8ff1-499d-8e14-7fcde5e0a769" />
+
+- Pose estimation: How it works, what a good dataset looks like, real-life application, train model in Teachable Machine
+<img width="799" height="450" alt="pose estimation data training" src="https://github.com/user-attachments/assets/cc4b4f11-ddf5-4265-ba13-e420eddede05" />
+
+---
 
 **Settings**
+### Object Detection Training — Test 1
 
-| Setting | Value |
-|---|---|
-| Model | [placeholder] |
-| System Instructions | [placeholder] |
-| Temperature | [placeholder] |
-| Knowledge Base | [placeholder] |
+🔗 [Teachable Machine Model](https://teachablemachine.withgoogle.com/models/icHSrioDc/)
 
-object detection training test 1: [here](https://teachablemachine.withgoogle.com/models/icHSrioDc/)
+| Sample | Image | Object |
+|---|---|---|
+| Sample 1 | ![Peanut butter pretzel](../assets/week-XX/sample-01-pretzel.png) | Peanut butter pretzel |
+| Sample 2 | ![Watch](../assets/week-XX/sample-02-watch.png) | Watch |
+
+**Problem**
+It was difficult to show the object without also showing my hand, which made detection confusing for the model. Since my hand was present in the training data for the watch dataset, the model started detecting a bare hand (with no watch) as a "watch" — it had learned to associate the hand itself with that class, rather than the watch specifically.
+<table width="100%">
+<tr>
+<td valign="top" width="50%">
+
+**false detection mixing hand with watch:**
+<img width="326" height="597" alt="截圖 2026-09-24 下午4 49 25" src="https://github.com/user-attachments/assets/4788de3b-8189-4264-81e2-279804ec0c39" />
+
+
+</td>
+<td valign="top" width="50%">
+
+**training datasets**
+<img width="1457" height="754" alt="training in progress" src="https://github.com/user-attachments/assets/99eba7fc-2073-4a68-95dc-ded5e38b1cc4" />
+
+
+
+</td>
+</tr>
+</table>
+
+
 motion classifier training test 1: [here](https://teachablemachine.withgoogle.com/models/LpMLrX4Y5/)
 
 
