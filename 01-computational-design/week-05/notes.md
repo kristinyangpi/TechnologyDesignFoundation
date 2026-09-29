@@ -155,7 +155,7 @@ Diversifying the training images across settings (distance, context, close-up) h
 |---|---|---|
 | Sample 1 | <img width="224" height="224" alt="178" src="https://github.com/user-attachments/assets/1a4d204a-169e-4af5-abc4-bd5492032439" /> | Eating — left hand raised |
 | Sample 2 | <img width="224" height="224" alt="2" src="https://github.com/user-attachments/assets/01cc146a-453b-4c0f-9de6-53c11c5725e4" /> | Not eating — both hands down |
-| Sample 3 | <img width="224" height="224" alt="6" src="https://github.com/user-attachments/assets/5712a590-6819-4b82-8aa9-5b034faf0c43" /> | Right hand thumbs up |
+| Sample 3 | <img width="224" height="224" alt="6" src="https://github.com/user-attachments/assets/5712a590-6819-4b82-8aa9-5b034faf0c43" /> | Finish eating - Right hand thumbs up |
 
 **Observation**
 The model doesn't detect fine details like mouth movement or finger positioning — it only picks up on face and arm position. Because of this, I had to differentiate "eating" from "finished eating" using distinct hand positions (e.g. different arm raised) rather than relying on something like an open mouth or a specific hand gesture, since the model isn't sensitive enough to catch that level of detail.
