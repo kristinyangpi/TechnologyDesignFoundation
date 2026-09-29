@@ -174,6 +174,7 @@ Using the trained pose detection model and dataset, I built a small interactive 
 **Key takeaway**
 
 This was a direct application of the earlier pose detection findings — since the model can't detect fine details like an open mouth or finger positioning, the game's interaction design had to work around that limitation rather than fight it. Using two clearly distinct, large-scale poses (left hand to mouth vs. right-hand thumbs up) instead of subtle gestures made the detection reliable enough to actually build a playable game on top of it.
+
 ---
 
 ### 💡 Weekly Reflection
