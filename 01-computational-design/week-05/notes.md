@@ -136,13 +136,14 @@ The first round of training still sometimes struggled to differentiate between t
 
 **Before & After: Peach & Soda Dataset**
 
+
 | | Before | After |
 |---|---|---|
-| **Training classes** | Peach, Soda, snack, egg | Peach, Soda, **Blank (no object)** |
-| **Image variety** | Object in different settings (table, hand, close-up, far, bowl) 
-<img width="224" height="224" alt="1" src="https://github.com/user-attachments/assets/e57282d9-d318-45f0-8faa-0b3c78a9fb5e" /><img width="224" height="224" alt="78" src="https://github.com/user-attachments/assets/900515cb-b23b-4a0a-8fdf-30010d72e515" /><img width="224" height="224" alt="174" src="https://github.com/user-attachments/assets/6beb539e-b379-458b-8b04-a69df81ffdb3" /><img width="224" height="224" alt="430" src="https://github.com/user-attachments/assets/1f799320-b59e-4311-8110-38f7746f8012" /> | Same variety, plus a blank/empty version of each setting 
-<img width="224" height="224" alt="98" src="https://github.com/user-attachments/assets/f92a1f67-5ea6-4df4-b40a-64ac65f3c415" /><img width="224" height="224" alt="41" src="https://github.com/user-attachments/assets/ea57bf72-ca29-4ffc-a79e-de10eaa5411c" /><img width="224" height="224" alt="3" src="https://github.com/user-attachments/assets/cc21063c-2fa7-49e7-8d35-8362280803d2" /> || **Result** | Sometimes difficult to differentiate between peach and soda | Differentiated properly — model had a clear "nothing" reference to contrast against || **Key change** | — | Added a negative/blank class so the model wasn't forced to guess between only two positive labels |
-
+| **Training classes** | Peach, Soda | Peach, Soda, **Blank (no object)** |
+| **Image variety** | Object in different settings (table, hand, close-up, far, bowl) | Same variety, plus a blank/empty version of each setting |
+| **Image examples** | <img width="224" height="224" alt="69" src="https://github.com/user-attachments/assets/c3ba922a-1bcc-4dd2-b4cf-906328d9dd22" /><img width="224" height="224" alt="1" src="https://github.com/user-attachments/assets/24ffd1ad-b48e-43fa-ad28-6fbe94583882" /><img width="224" height="224" alt="169" src="https://github.com/user-attachments/assets/e9b744a5-cdd4-4c0f-85e1-21e699e75be4" /><img width="224" height="224" alt="450" src="https://github.com/user-attachments/assets/d80d25c9-3db0-47e5-87b8-aacb254bbda1" /> | <img width="224" height="224" alt="1" src="https://github.com/user-attachments/assets/3fef7ed8-16cd-4439-a228-50a012f2fed7" /><img width="224" height="224" alt="70" src="https://github.com/user-attachments/assets/dc5282d7-0fac-4fb6-9184-04be912ed3bd" /><img width="224" height="224" alt="77" src="https://github.com/user-attachments/assets/a52c4c3b-05f5-4b84-bf0c-74a1d3f3f6d3" /> |
+| **Result** | Sometimes difficult to differentiate between peach and soda | Differentiated properly — model had a clear "nothing" reference to contrast against |
+| **Key change** | — | Added a negative/blank class so the model wasn't forced to guess between only two positive labels |
 **Takeaway**
 
 Diversifying the training images across settings (distance, context, close-up) helped the model generalize the object itself — but just as important was giving it a negative class (empty scene) so it had something to contrast against. Without a "nothing" example, the model may default to guessing between the only two labels it knows, even when neither is actually present.
