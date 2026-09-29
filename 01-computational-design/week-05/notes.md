@@ -1,6 +1,6 @@
 # Week 5 📅 Sept 21-25
 
---
+---
 
 ### 🔧 Sept 22 — Open Your Eyes 👀: Intro to Computer Vision
 
