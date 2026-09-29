@@ -36,7 +36,7 @@
 - 🌟Separating responsibilities this way mirrors a real team structure (research → build → QA → docs) rather than treating the AI as one undifferentiated assistant
 
 **Challenges**
-- Understanding file path notation like `~/.codex/config.toml` — specifically what `~` means (a shortcut for the home folder) and why the `.codex` folder needed to stay at the home folder level rather than inside the `Projects` folder
+- Understanding file path notation like `~/.codex/config.toml` — specifically what `~` means (a shortcut for the home folder= [your home folder]/.codex/config.toml) and why the `.codex` folder needed to stay at the home folder level rather than inside the `Projects` folder
 
 
 ---
