@@ -160,7 +160,7 @@ Diversifying the training images across settings (distance, context, close-up) h
 **Observation**
 The model doesn't detect fine details like mouth movement or finger positioning — it only picks up on face and arm position. Because of this, I had to differentiate "eating" from "finished eating" using distinct hand positions (e.g. different arm raised) rather than relying on something like an open mouth or a specific hand gesture, since the model isn't sensitive enough to catch that level of detail.
 
-### 🎮 Hamburger Eating Game — Applying the Pose Detection Model
+### 🎮 🍔 Hamburger Eating Game — Applying the Pose Detection Model
 
 Using the trained pose detection model and dataset, I built a small interactive game: 🔗 [Pose Hamburger Game](https://kristinyangpi-pose-hamburger-game.vercel.app/)
 
@@ -178,6 +178,17 @@ This was a direct application of the earlier pose detection findings — since t
 ---
 
 ### 💡 Weekly Reflection
+
+This week's biggest lesson across both object detection and pose classification was the same: a model only learns what's actually consistent and controllable in the training data — not what the label implies. With the peanut butter pretzel and watch tests, I learned that including my hand in every training image meant the model learned "hand" as much as it learned the object itself, causing false positives on a bare hand. With the peach and soda dataset, accuracy only improved once I added a "blank" class — giving the model an explicit negative reference point instead of forcing it to choose between two positive labels every time.
+
+The pose detection exercise pushed this further — I realized the model doesn't pick up on fine details like an open mouth or finger positioning, only broader face and arm position. This meant redesigning how I differentiated classes (eating vs. finished eating) around what the model could actually perceive, rather than what made intuitive sense to me as a human. Applying this directly into the hamburger eating game made the lesson concrete: good pose-based interaction design isn't about the most natural gesture, it's about the most detectable one.
+
+Overall, this week reframed dataset design as its own design problem — the choices I make about what to include, exclude, and label directly shape what the system is capable of understanding, in the same way structuring a role card shapes how an LLM-based agent behaves.
+
+### ➡️ Next steps
+- Continue refining datasets with negative/blank classes as a default practice, not an afterthought
+- Explore what other kinds of interactions could be built using large-scale, detectable poses like this
+- Apply the "design for what the model can actually perceive" principle to future computer vision experiments
 
 
 ### Something Funny
