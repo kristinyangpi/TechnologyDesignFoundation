@@ -30,7 +30,7 @@
 ### 🔧 Oct 1 — MediaPipe Tutorial and Unity Setup
 
 **What we did**
-- MediaPipe
+- Exploring MediaPipe
 <table width="100%">
 <tr>
 <td valign="top" width="50%">
