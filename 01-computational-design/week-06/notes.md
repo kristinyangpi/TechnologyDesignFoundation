@@ -38,14 +38,14 @@
 <img width="1430" height="773" alt="截圖 2026-10-01 下午3 27 32" src="https://github.com/user-attachments/assets/bf4da653-dc40-488f-855a-cc4a52eabdea" />
 
 
-<sub>Caption 1</sub>
+<sub>face landmarker</sub>
 
 </td>
 <td valign="top" width="50%">
 
 <img width="1429" height="768" alt="截圖 2026-10-01 下午3 29 37" src="https://github.com/user-attachments/assets/22753753-4839-44c4-bf9e-382f861c3a39" />
 
-<sub>Caption 2</sub>
+<sub>gesture recognizer</sub>
 
 </td>
 </tr>
@@ -54,14 +54,14 @@
 
 <img width="1423" height="764" alt="截圖 2026-10-01 下午3 32 41" src="https://github.com/user-attachments/assets/f453cabd-c6d3-48aa-9ab9-1a4fc1e049a9" />
 
-<sub>Caption 3</sub>
+<sub>holistic landmarker</sub>
 
 </td>
 <td valign="top" width="50%">
 
 <img width="1429" height="769" alt="截圖 2026-10-01 下午3 35 17" src="https://github.com/user-attachments/assets/adee65b1-8bd1-4100-8253-d4a50518e137" />
 
-<sub>Caption 4</sub>
+<sub>image segmenter</sub>
 
 </td>
 </tr>
