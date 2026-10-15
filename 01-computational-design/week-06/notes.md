@@ -13,7 +13,6 @@
 
 <img width="663" height="372" alt="截圖 2026-10-06 下午3 32 43" src="https://github.com/user-attachments/assets/1f1e357f-06de-405b-ba8b-eefadb143dad" />
 <img width="799" height="449" alt="截圖 2026-10-06 下午3 26 57" src="https://github.com/user-attachments/assets/7635dd30-e942-4d20-b826-0c2bd760644c" />
-- Unity Hub/Unity Install: Environment Setup/Git Clone
 
 **Software VE vs. Simulated VE**
 
@@ -34,7 +33,10 @@
 ### 🔧 Oct 1 — MediaPipe Tutorial and Unity Setup
 
 **What we did**
-- Exploring MediaPipe
+- Explored Google MediaPipe, which offers many ready-made vision "tasks" that can be used as prototyping tools: face landmarker, gesture recognizer, holistic landmarker, and image segmenter (plus others like object detector and pose landmarker)
+- Took a crash course in Unity: opening and interacting with the elephant simulation VE
+- Formed groups: Our task is to use MediaPipe to figure out how to move and control the simulated elephant movement in Unity
+
 <table width="100%">
 <tr>
 <td valign="top" width="50%">
@@ -46,6 +48,8 @@
 
 </td>
 <td valign="top" width="50%">
+
+
 
 <img width="1429" height="768" alt="截圖 2026-10-01 下午3 29 37" src="https://github.com/user-attachments/assets/22753753-4839-44c4-bf9e-382f861c3a39" />
 
@@ -71,17 +75,33 @@
 </tr>
 </table>
 
-**Settings**
+**Unity setup with the Codex agents**
 
-| Setting | Value |
+🔗 [DigiPhant student starter](https://github.com/kommanderpi/studentstarter): the setup guide we gave our coding agents
+
+- Used the Codex agents I set up earlier in week 5(explorer, builder, reviewer, documenter) in VS Code to run the Unity installation, rather than following a fixed list of manual commands
+- The guide breaks down into three steps:
+  1. Create a Unity project in Unity Hub (Universal 3D / URP is the easiest starting point)
+  2. Clone the starter repo into the project root, beside `Assets` and not inside it, as `DigiPhantStarter`
+  3. Open the agent in the Unity project root and prompt it to inspect my project, computer setup, and the cloned repo, then integrate the elephant and motion tracking, verify what it can, and record the setup in `DIGIPHANT_SETUP.md`
+- The same prompt also asks the agent to set up performance recording (`RECORDING.md`) and a lightweight Git repo for my own project (`STUDENT_GIT.md`)
+
+**Controlling the Elephant🐘**
+
+| Component | Contents |
 |---|---|
-| Model | [placeholder] |
-| System Instructions | [placeholder] |
-| Temperature | [placeholder] |
-| Knowledge Base | [placeholder] |
+| `Elephant/` | Rigged elephant, animations, textures, prefab, and demo scene |
+| `DigiPhant/` | Reference scene, receiver, camera preview, calibration, mapping, rig control, and locomotion |
+| `Tracking/bridge.py` | Webcam capture, MediaPipe pose tracking, performer assignment, movement signals, and local UDP output |
+| `INTEGRATION.md` | Message format, ports, signals, calibration, and tracking behavior |
+
+
+https://github.com/user-attachments/assets/79a00527-90d4-413f-9334-7ae6159fae6a
+
 
 **Key takeaways**
-- [placeholder]
+- The workflow matched how I'd set up my agents: inspect first, then build. The prompt asks the agent to read the project and my computer setup before changing anything, which is the explorer-before-builder idea in practice.
+- The agent can't do everything alone. I still had to grant camera access, open the editor, and perform movements for tests it couldn't run itself
 
 **Challenges**
 - [placeholder]
