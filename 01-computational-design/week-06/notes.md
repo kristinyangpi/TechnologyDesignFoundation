@@ -112,7 +112,12 @@ https://github.com/user-attachments/assets/79a00527-90d4-413f-9334-7ae6159fae6a
 ---
 
 ### 💡 Weekly Reflection
-- [placeholder]
+
+This week moved from training small models to thinking about the environments they live in. Learning the difference between software VEs (where code and models run) and simulated VEs (where a world with physics, cameras, and agents exists) gave me a clearer picture of how computer vision actually gets used. The pose tracking happens in one place, and the thing it controls happens in another, with messages passing between the two. Setting up Unity and the elephant project made that concrete, since a Python tracking bridge was feeding movement signals into a simulated world.
+
+Having my Codex agents run the Unity installation was a good test of the workflow I set up earlier. Instead of following a fixed list of commands, the instructions gave the agent a goal and a set of rules about inspecting first, preserving my existing work, and documenting what it did. That felt closer to directing a collaborator than operating a tool, and it reinforced how much the quality of the instructions shapes the result, the same lesson I learned from writing role cards.
+
+**The most useful discovery came while controlling the elephant:** pose detection loses track as soon as part of my arm leaves the frame, and it doesn't guess what's out of view. This connects directly to last week's pose detection work, where I found the model could only perceive large, clear features like face and arm position. Both times, the lesson was that I have to design around what the system can actually perceive rather than what feels natural to me. Camera framing turned out to be part of the interaction design, not just a technical setup step.
 
 ### ➡️ Next steps
-- [placeholder]
+- Continue working with our group: (Junling, Celena, Kristin) on mapping MediaPipe tasks to elephant controls
