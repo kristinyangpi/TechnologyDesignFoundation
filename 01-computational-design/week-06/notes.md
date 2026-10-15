@@ -75,6 +75,8 @@
 </tr>
 </table>
 
+--
+
 **Unity setup with the Codex agents**
 
 🔗 [DigiPhant student starter](https://github.com/kommanderpi/studentstarter): the setup guide we gave our coding agents
@@ -99,12 +101,13 @@
 https://github.com/user-attachments/assets/79a00527-90d4-413f-9334-7ae6159fae6a
 
 
-**Key takeaways**
-- The workflow matched how I'd set up my agents: inspect first, then build. The prompt asks the agent to read the project and my computer setup before changing anything, which is the explorer-before-builder idea in practice.
-- The agent can't do everything alone. I still had to grant camera access, open the editor, and perform movements for tests it couldn't run itself
-
 **Challenges**
-- [placeholder]
+- When following the instructions to control the elephant, I realized the entire arm needs to be visible on screen. If part of it falls outside the frame, pose detection loses track, and the model doesn't predict anything beyond the edge of the camera view.
+
+**Key takeaways**
+- Pose tracking only works on what the camera can see. It estimates from visible body parts and doesn't fill in what's cropped out, so camera framing is part of the control design.
+- This is consistent with the starter guide, which notes that full-body mode needs hips and feet visible, while seated mode relies on shoulders and hands. Choosing a mode amounts to deciding which body parts must stay in frame.
+- It echoes my Week 5 pose detection findings: the model only perceives what's actually detectable, so the interaction has to be designed around that limit rather than what feels natural to me as a human.
 
 ---
 
