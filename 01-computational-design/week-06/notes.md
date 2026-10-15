@@ -5,25 +5,29 @@
 ### 🔧 Sept 29 — Machine Learning Methods in Computer Vision- Virtual Environments
 
 **What we did**
-- Virtual Environment: bounded digital context in which specific tools, rules, data, or interactions can operate
+- Learned the difference between two kinds of virtual environments (VEs):
+  - **Software VE:** a controlled computing environment that manages dependencies and organizes the system through code (Python, packages, model files, APIs)
+  - **Simulated VE:** a closed digital world that recreates things like terrain, camera, lighting, agents, and physics
+- Both act as containers for testing computer vision models, and they can talk to each other through APIs and messaging formats (JSON, REST, CSV, WebSocket, OSC, Python scripts)
+- Set up Unity, the main simulated VE software for this class: installing Unity Hub and Unity, creating a project, connecting GitHub, and making a sandbox to experiment in
+
 <img width="663" height="372" alt="截圖 2026-10-06 下午3 32 43" src="https://github.com/user-attachments/assets/1f1e357f-06de-405b-ba8b-eefadb143dad" />
 <img width="799" height="449" alt="截圖 2026-10-06 下午3 26 57" src="https://github.com/user-attachments/assets/7635dd30-e942-4d20-b826-0c2bd760644c" />
 - Unity Hub/Unity Install: Environment Setup/Git Clone
 
-**Settings**
+**Software VE vs. Simulated VE**
 
-| Setting | Value |
-|---|---|
-| Model | [placeholder] |
-| System Instructions | [placeholder] |
-| Temperature | [placeholder] |
-| Knowledge Base | [placeholder] |
+| | Software VE | Simulated VE |
+|---|---|---|
+| **Main purpose** | A controlled computing environment where code and models run | A digital world where agents, objects, and physics interact |
+| **Typical components** | Python, packages (pip/conda), model files, APIs | Terrain, camera, lighting, agents, physics |
+| **What it controls** | Computing resources, libraries, model loading, API execution | World state, scene objects, sensors, agent behavior, time |
+| **Example outputs** | Model predictions, analysis results, API responses | Rendered scenes, sensor data (images, depth), animations, interaction outcomes |
 
 **Key takeaways**
-- [placeholder]
-
-**Challenges**
-- [placeholder]
+- One manages computation; the other manages a world
+- Because the two can exchange data through APIs and messaging, a model running in a software VE can drive what happens inside a simulated VE
+- [placeholder: your own takeaway]
 
 ---
 
