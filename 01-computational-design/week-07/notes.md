@@ -1,6 +1,5 @@
 # Week 7 📅 Oct 5–9, 2026
 
----
 
 ### 🔧 Oct 6 — [Topic/Title]
 
