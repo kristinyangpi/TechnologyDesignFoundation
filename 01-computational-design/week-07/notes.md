@@ -32,6 +32,26 @@ My definition: A digital twin is a **virtual counterpart** that responds to a pe
 | **P2: Celena** | Eat & Splash | Eating watermelon, and drinking and splashing water through the trunk | Facial expression: mouth open, head nod and tilt |
 | **P3: Kristin (me)** | Treats & Flight | Eating lollipops by showing a lollipop image to the camera. After 2 lollipops, flight unlocks and flapping both arms makes the elephant rise | Object detection (plus arm pose for flight) |
 
+**Problem 1: Tree too tall, lollipop not in reach**
+<table width="100%">
+<tr>
+<td valign="top" width="50%">
+
+**Before Adjustment: pick up fail**
+<img width="1505" height="738" alt="截圖 2026-10-17 凌晨1 19 12" src="https://github.com/user-attachments/assets/b4bedaec-0f3a-47b3-9185-cc3445e2fd5f" />
+
+
+</td>
+<td valign="top" width="50%">
+
+**After Adjustment: pick up and ate the lollipop --> triggers birthday hat**
+https://github.com/user-attachments/assets/a93d3273-88b0-43eb-9737-6e2b1f0091bd
+
+
+</td>
+</tr>
+</table>
+
 **Settings**
 
 
