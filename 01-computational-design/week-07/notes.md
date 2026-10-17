@@ -1,40 +1,45 @@
 # Week 7 📅 Oct 5–9, 2026
 
 
-### 🔧 Oct 6 — [Topic/Title]
+### 🔧 Oct 6 — Intro to Digital Twins
 
 **What we did**
-- [placeholder]
+- Started with a class discussion on what a Digital Twin actually is. Opinions varied widely, from things like Fitbits to information models
+- Learned that the data is the important part, and that the process behind a digital twin is fairly straightforward:
 
-**Settings**
+| Observe | → Interpret | → Translate | → Simulate | → Test |
+|---|---|---|---|---|
 
-| Setting | Value |
-|---|---|
-| [placeholder] | [placeholder] |
-| [placeholder] | [placeholder] |
+<img width="799" height="448" alt="截圖 2026-10-17 凌晨1 10 34" src="https://github.com/user-attachments/assets/4a382784-79e2-428b-8c34-d96c2a9a1d90" />
+
+My definition: A digital twin is a **virtual counterpart** that responds to a person’s movements and intentions in real time, turning physical actions into **meaningful** digital experiences.
 
 **Key takeaways**
-- [placeholder]
-
-**Challenges**
-- [placeholder]
+- A digital twin is built through a repeatable process rather than a single tool, and the quality of the data drives everything after it
+- This maps onto our elephant project: the camera observes a performer, pose or face detection interprets the movement, the signals are translated into controls, Unity simulates the elephant, and we(user) test how it responds
 
 ---
 
-### 🔧 Oct 8 — [Topic/Title]
+### 🔧 Oct 8 — DigiPhant Group Project: Roles & Game Environment Set Up
 
 **What we did**
-- [placeholder]
+- Continued working on our group DigiPhant Unity game, where the goal is to guide the elephant through Candy Wonderland: eat treats, grow a flower garden, fly across the course, and reach the finish for a tutu ballet celebration
+- Assigned each person a part of the controls, each driven by a different kind of detection:
+
+| Player | Role | What they control | Detection |
+|---|---|---|---|
+| **P1: Junling** | Drive & Steer | Moving the elephant forward and backward, turning left and right, and stopping | Pose detection |
+| **P2: Celena** | Eat & Splash | Eating watermelon, and drinking and splashing water through the trunk | Facial expression: mouth open, head nod and tilt |
+| **P3: Kristin (me)** | Treats & Flight | Eating lollipops by showing a lollipop image to the camera. After 2 lollipops, flight unlocks and flapping both arms makes the elephant rise | Object detection (plus arm pose for flight) |
 
 **Settings**
 
-| Setting | Value |
-|---|---|
-| [placeholder] | [placeholder] |
-| [placeholder] | [placeholder] |
 
 **Key takeaways**
-- [placeholder]
+- Splitting the controls by detection type (pose, face, object) lets each person build and test one part independently
+- Flight is a shared action: I control the height, and P1 steers during flight, so the elephant can't fly without teamwork
+- The lollipop works as a reward system: 1 lollipop grows a birthday hat, and 2 lollipops give big ears and unlock flight
+- [placeholder: what worked or didn't when testing your lollipop detection]
 
 **Challenges**
 - [placeholder]
