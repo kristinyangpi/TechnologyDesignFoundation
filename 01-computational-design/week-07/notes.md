@@ -45,7 +45,7 @@ My definition: A digital twin is a **virtual counterpart** that responds to a pe
 <td valign="top" width="50%">
 
 **After Adjustment: pick up and ate the lollipop --> triggers birthday hat**
-https://github.com/user-attachments/assets/bcf056f9-bf5c-4a88-91e9-a7a786fd6164
+<video src="https://github.com/user-attachments/assets/65cbb2db-63f4-4950-a1ba-45b7e1df2822" controls width="100%"></video>
 
 
 
