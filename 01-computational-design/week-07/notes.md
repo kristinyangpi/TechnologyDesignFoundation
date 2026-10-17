@@ -70,7 +70,7 @@ https://github.com/user-attachments/assets/5df1c8d3-bd04-45fc-9901-dd858ab63d30
 ---
 
 ### 💡 Weekly Reflection
-- [placeholder]
+- Learning the digital twin process (observe, interpret, translate, simulate, test) gave me a way to describe what our elephant project is doing. Each performer's movement becomes data that is interpreted and translated into the elephant's behavior.
 
 ### ➡️ Next steps
 - [placeholder]
