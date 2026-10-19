@@ -46,25 +46,20 @@
 ### 🔧 Oct 15 — Cross-Section Final Presentation
 
 **What we did**
-- [placeholder]
+- Joined a cross-section review and presentation with classmates from the physical computing class and the digital computational design class
+- Presented our DigiPhant Unity game, then had guests/classmates try it out
+- Saw how differently each section approached its projects, from physical builds to digital and computational work
 
-**Settings**
+**Summary**
+The review was a chance to see the course from the other side. The physical computation and digital computational design classes worked on very different projects with very different approaches, yet both were exploring how people interact with technology. Seeing so many approaches next to each other showed how many ways there are to solve a similar design problem, and having guests play our game turned it from a prototype we had only tested ourselves into something people could try.
 
-| Setting | Value |
-|---|---|
-| [placeholder] | [placeholder] |
-| [placeholder] | [placeholder] |
+**Key takeaway / challenge**
+While guests tried our game, **many people were walking around in the camera's background, which made it hard to detect the player's pose.** The camera kept losing track of the player and picking up movement from people in the background, so the game felt less smooth than it did in our own testing. This is something we need to improve.
 
-**Key takeaways**
-- [placeholder]
+- This connects to what I found earlier in the course: a model only perceives what is in the frame, and it can't tell which person or object is the one that matters. Testing alone in a quiet space hid this problem completely, and a crowded room exposed it.
+- It also echoes the Week 7 lollipop issue, where the person in the frame competed with the object I wanted detected.
+- **ideas for how to fix:** tracking only the closest person, or adjusting the camera angle]
 
-**Challenges**
-- [placeholder]
-
----
-
-### 💡 Weekly Reflection
-- [placeholder]
 
 ### ➡️ Next steps
-- [placeholder]
+- moving downstairs to physical computing!
