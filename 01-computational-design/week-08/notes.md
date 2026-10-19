@@ -6,7 +6,7 @@
 **What we did**
 - Before class, made final adjustments and iterations after combining each person's features into one DigiPhant Unity game
 - Presented our DigiPhant Unity game as a group and demoed it live
-- 🔗 [JCK_Digiphant Demo video🎪🐘🪽]([(https://drive.google.com/file/d/1nuq7_dsvGaAe9VmaOa4Y9Fo7RMF0Ze9G/view?usp=drive_link)])
+- 🔗 [JCK_Digiphant Demo video🎪🐘🪽]([https://drive.google.com/file/d/1nuq7_dsvGaAe9VmaOa4Y9Fo7RMF0Ze9G/view?usp=drive_link])
 
 
 **Settings**
