@@ -61,22 +61,34 @@ https://github.com/user-attachments/assets/5df1c8d3-bd04-45fc-9901-dd858ab63d30
 | **Elephant finishing dance** | When elephant passes finishing line, create confetti effect and trigger a victory ballet dance with elephant dressing in tutu | https://github.com/user-attachments/assets/40352e6d-4c43-418d-9298-821bebc224b0|
 
 
+
 **Settings**
-
-
-**Key takeaways**
 - Splitting the controls by detection type (pose, face, object) lets each person build and test one part independently
 - Flight is a shared action: I control the height, and P1 steers during flight, so the elephant can't fly without teamwork
 - The lollipop works as a reward system: 1 lollipop grows a birthday hat, and 2 lollipops give big ears and unlock flight
-- [placeholder: what worked or didn't when testing your lollipop detection]
 
-**Challenges**
-- [placeholder]
+**Challenges and takeaways**
+- **Setting up the lollipop:** At first I only used object detection, so the lollipop wasn't detected whenever my face and body were also visible in the camera. To get it to trigger, I had to hold the image right up to the lens so it covered my body and face, which made the interaction awkward.
+<img width="1501" height="738" alt="截圖 2026-10-18 晚上8 57 24" src="https://github.com/user-attachments/assets/40af7225-2683-47df-9b58-720b72488580" />
+
+- **The adjustment:** I changed the trigger rule to "when a user is present and holding a lollipop image upright, trigger the action." The detection now looks at the person and the object together instead of the object alone. New trigger worked smoothly as it easily detects the image of the lollipop with my holding gesture and triggers the hat growing and flying feature effectively.
+
+<img width="1507" height="834" alt="截圖 2026-10-18 晚上8 59 37" src="https://github.com/user-attachments/assets/46d1946c-2ff3-42e9-841a-2fbcb272c7ac" />
+
+- **Lesson:** A detection that works in isolation can fail once other things are in the frame. Here the person competed with the object, much like my hand did in the Week 5 watch test. Defining the interaction as a condition (person present + image held upright) gave the system something specific to look for, and I no longer had to adapt my behavior to its limits.
+
+- - The lollipops were too high for the elephant’s trunk to reach, so I adjusted their placement and tested the pickup distance.
+- The trunk spun too aggressively during pickup and eating. Smoothing its movement while keeping the candy attached made the action more natural.
+- The rewards needed to trigger only after the elephant finished eating: the first lollipop added a birthday hat, the second grew wings, and the third unlocked flight.
 
 ---
 
 ### 💡 Weekly Reflection
 - Learning the digital twin process (observe, interpret, translate, simulate, test) gave me a way to describe what our elephant project is doing. Each performer's movement becomes data that is interpreted and translated into the elephant's behavior.
+- Object detection is only one part of the interaction; reach, timing, and animation must work together to make it convincing.
+- Clear visual rewards(hat, flying feature) help players understand their progress and encourage them to keep exploring.
+- Testing each stage separately—detect, reach, grip, eat, and transform: made it easier to identify problems and refine the experience.
 
 ### ➡️ Next steps
-- [placeholder]
+- try out the game collectively as a group to test if all features works well when multiple players are present.
+- iterate and make adjustments if needed
