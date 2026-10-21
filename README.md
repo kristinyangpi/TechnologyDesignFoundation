@@ -2,6 +2,37 @@
 VERY new to coding and trying to figure it all out through **Technology Design Foundation!**
 
 
+## Physical Computing
+
+<table width="100%">
+<tr>
+<td valign="top" width="50%">
+
+## Expressive Mechanics
+
+[Week 9](01-computational-design/week-04/notes.md)
+
+[Week 10](01-computational-design/week-03/notes.md)
+
+[Week 11](01-computational-design/week-02/notes.md)
+
+</td>
+<td valign="top" width="50%">
+
+## Ambient Display
+
+[Week 12](01-computational-design/week-08/notes.md)
+
+[Week 13](01-computational-design/week-07/notes.md)
+
+[Week 14](01-computational-design/week-06/notes.md)
+
+[Week 15](01-computational-design/week-05/notes.md)
+
+</td>
+</tr>
+</table>
+
 ## Computational Design
 
 <table width="100%">
