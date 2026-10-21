@@ -10,24 +10,24 @@ VERY new to coding and trying to figure it all out through **Technology Design F
 
 ## Expressive Mechanics
 
-[Week 9](01-computational-design/week-04/notes.md)
+[Week 9](02-physical-computing/week-09/notes.md)
 
-[Week 10](01-computational-design/week-03/notes.md)
+[Week 10](02-physical-computing/week-10/notes.md)
 
-[Week 11](01-computational-design/week-02/notes.md)
+[Week 11](02-physical-computing/week-11/notes.md)
 
 </td>
 <td valign="top" width="50%">
 
 ## Ambient Display
 
-[Week 12](01-computational-design/week-08/notes.md)
+[Week 12](02-physical-computing/week-12/notes.md)
 
-[Week 13](01-computational-design/week-07/notes.md)
+[Week 13](02-physical-computing/week-13/notes.md)
 
-[Week 14](01-computational-design/week-06/notes.md)
+[Week 14](02-physical-computing/week-14/notes.md)
 
-[Week 15](01-computational-design/week-05/notes.md)
+[Week 15](02-physical-computing/week-15/notes.md)
 
 </td>
 </tr>
