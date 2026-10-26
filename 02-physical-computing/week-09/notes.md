@@ -140,7 +140,7 @@ The code is split into two parts: preparation in `setup()` and the repeating act
 **Joining techniques**
 
 The right joint depends on the design and the material, and a good one makes the piece look neat and professional!
-Make sure to sand all the edges of your product!
+!!!!Make sure to sand all the edges of your product!!!!
 
 | Joint | How it works | Notes |
 |---|---|---|
@@ -161,7 +161,7 @@ Rigid sheets like wood or thick plastic don't normally bend. Cutting rows of alt
 
 ---
 
-### 📋 Homework: Ring (due Thursday, Oct 29)
+### 📋 Homework: Ring 💍 (due Thursday, Oct 29)
 
 **Brief:** Create a ring that describes a part of your personality or a cause you believe in. Make it bold, make it big, and have fun with it!
 
