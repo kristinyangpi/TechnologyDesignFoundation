@@ -2,7 +2,7 @@
 
 ---
 
-### 🔌 Electronics 📟 Oct 20 — Introduction to Physical Computation and Arduino
+# 🔌 Electronics 📟 Oct 20 — Introduction to Physical Computation and Arduino
 
 **Course agenda: two skill-building exercises (shorter projects) and two foundational projects**
 
@@ -122,10 +122,127 @@ The code is split into two parts: preparation in `setup()` and the repeating act
   - 1 video + some images (if relevant)
   - Code files + circuit diagrams
   - A short write-up of the experiments and results
+     
+# 👻 Shy Little Ghost
+**Arduino Experiment:1 LED + 1 LDR**
+
+## 01 — Concept: A Ghost That Lights Up in the Dark
+
+For this exercise, I wanted to go beyond simply turning an LED on and off and explore how a basic electronic interaction could give an object personality.
+
+I came up with the idea of a shy little ghost that feels more comfortable in the dark. When exposed to light, the ghost stays unlit, almost as if it is hiding. When someone covers the light sensor with their hand, the ghost begins to glow.
+
+The idea is to transform a simple input-output relationship into a small, playful interaction. Rather than pressing a button, the user makes a gesture of sheltering the ghost, which responds by coming to life.
+
+**Interaction:** Light → Ghost sleeps | Darkness → Ghost glows
+
+## 02 — Components & Setup
+
+I used the following components from the Arduino kit:
+
+- Elegoo Arduino Uno R3
+- Breadboard and jumper wires
+- 1 LED
+- 1 LDR (light-dependent resistor)
+- 1 × 10 kΩ resistor
+- 1 × 330 Ω resistor
+- USB cable
+
+The LDR senses changes in ambient light and sends an analog reading to the Arduino through pin A0. The Arduino compares this reading against a threshold and controls the LED through digital pin 9.
+
+I initially planned the LED and LDR farther apart on the breadboard, but moved them closer together to accommodate the small size of the ghost.
+
+**Key connections:**
+- LDR → A0, using a 10 kΩ voltage divider
+- External LED → D9, using a 330 Ω current-limiting resistor
+- Onboard LED → built-in pin 13
+
+*Documentation to add: Photo of the breadboard setup and wiring.*
+
+## 03 — Coding the Interaction
+
+The program combines two behaviours to meet the assignment requirements.
+
+**Hello World:** The Arduino's built-in LED blinks every 500 milliseconds while "Hello World" and the current light reading are printed to the Serial Monitor.
+
+**Ghost interaction:** The Arduino continuously reads the LDR using `analogRead()`. When the reading falls below a defined threshold, the external LED turns on. Otherwise, it remains off.
+
+I used `analogWrite()` to control the LED brightness, allowing for a softer glow rather than an overly bright light.
+
+**Code: Ghost LED + light sensor**
+
+```cpp
+const int ghostLED = 9;
+const int lightSensor = A0;
+const int threshold = 300;
+
+unsigned long lastBlink = 0;
+bool onboardState = false;
+
+void setup() {
+  pinMode(ghostLED, OUTPUT);
+  pinMode(LED_BUILTIN, OUTPUT);
+
+  Serial.begin(9600);
+}
+
+void loop() {
+  // Read the light sensor
+  int lightLevel = analogRead(lightSensor);
+
+  // Ghost glows when it's dark!
+  if (lightLevel < threshold) {
+    analogWrite(ghostLED, 180);
+  } else {
+    analogWrite(ghostLED, 0);
+  }
+
+  // Blink onboard LED every 500ms
+  if (millis() - lastBlink >= 500) {
+    lastBlink = millis();
+
+    onboardState = !onboardState;
+    digitalWrite(LED_BUILTIN, onboardState);
+
+    // Print Hello World
+    Serial.print("Hello World | Light: ");
+    Serial.println(lightLevel);
+  }
+}
+```
+
+## 04 — Experimentation & Troubleshooting
+
+- One of the main challenges was learning how the components connect through the breadboard and understanding the relationship between the sensor readings and the LED's behavior
+
+**Challenge 1 — Identifying components**
+
+I learned to distinguish resistors by their color bands. I originally planned to use a 220 Ω resistor for the LED but used a 330 Ω resistor available in my kit instead.
+
+**Challenge 2 — Calibrating the light sensor**
+
+**Finding the ideal threshold:** 
+Another challenge was finding the right LDR threshold before and after placing the ghost figure over the circuit. The ghost's material changes how much ambient light reaches the sensor, affecting its readings and the LED's behavior.
+
+**Threshold Calibration: Before vs. After Assembly**
+
+| Setting | Before Ghost Assembly | After Ghost Assembly |
+|---|---|---|
+| LDR placement | Exposed to room lighting | Partially enclosed by ghost |
+| Light reading (uncovered) | 370–501 | 230-250 |
+| Light reading (covered) | 140-170 | 50-70 |
+| Initial threshold | 500 <img width="233" height="87" alt="截圖 2026-10-27 上午11 01 35" src="https://github.com/user-attachments/assets/b97b993c-c90a-4643-9172-15138a0e8998" />| 300 |
+| Adjusted threshold | 300 <img width="231" height="100" alt="截圖 2026-10-27 上午11 01 55" src="https://github.com/user-attachments/assets/990e087a-bc23-46c9-9255-974eeb93b62e" />| 200 |
+| LED behavior | Often stays ON when uncovered | stays ON when surrounding is bright, OFF when surrounding is dark |
+| Main challenge | Threshold too high | Ghost material may affect light detection |
+
+
+**Takeaway:** I learned that the physical form of an object can directly influence how its electronics behave. Sensor calibration needs to happen within the final physical prototype and the surrounding environment, not just on the breadboard.
+
 
 ---
 
-### 🥽 Fabrication & Prototyping 🛠 Oct 20 — Introduction to Digital Fabrication: Laser Cutting
+# 🥽 Fabrication & Prototyping 🛠 Oct 20 — Introduction to Digital Fabrication: Laser Cutting
 
 **Laser cutting Pros and Cons**
 
