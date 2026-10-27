@@ -233,7 +233,7 @@ Another challenge was finding the right LDR threshold before and after placing t
 | Light reading (covered) | 140-170 | 50-70 |
 | Initial threshold | 500 <img width="233" height="87" alt="截圖 2026-10-27 上午11 01 35" src="https://github.com/user-attachments/assets/b97b993c-c90a-4643-9172-15138a0e8998" />| 300 |
 | Adjusted threshold | 300 <img width="231" height="100" alt="截圖 2026-10-27 上午11 01 55" src="https://github.com/user-attachments/assets/990e087a-bc23-46c9-9255-974eeb93b62e" />| 200 |
-| LED behavior | Often stays ON when uncovered | stays ON when surrounding is bright, OFF when surrounding is dark |
+| LED behavior | Often stays ON when uncovered | stays ON when surrounding is bright, OFF when surrounding is dark https://github.com/user-attachments/assets/15f1054c-cada-40bd-8d38-c0d2af04302c |
 | Main challenge | Threshold too high | Ghost material may affect light detection |
 
 
