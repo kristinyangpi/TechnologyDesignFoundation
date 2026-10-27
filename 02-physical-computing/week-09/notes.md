@@ -123,30 +123,27 @@ The code is split into two parts: preparation in `setup()` and the repeating act
   - Code files + circuit diagrams
   - A short write-up of the experiments and results
      
-# 👻 Shy Little Ghost
+# 👻 Shy Little Ghost 🎃
 **Arduino Experiment:1 LED + 1 LDR**
+<img width="770" height="427" alt="截圖 2026-10-27 下午3 49 17" src="https://github.com/user-attachments/assets/43e2e316-f0c4-48ef-b0cf-34f6f6c2bff3" />
+| Final Outcome! | Serial Moniteor reporting LDR data |
+|---|---|
+| https://github.com/user-attachments/assets/07cc99d5-8c24-475a-9d9d-a5ad5cea8866| https://github.com/user-attachments/assets/97dd699f-e261-46a3-b432-8879554b417d|
 
 ## 01 — Concept: A Ghost That Lights Up in the Dark
 
-For this exercise, I wanted to go beyond simply turning an LED on and off and explore how a basic electronic interaction could give an object personality.
+Since Halloween is approaching, I came up with the idea of a shy little ghost that feels more comfortable in the dark. When exposed to light, the ghost stays unlit, almost as if it is hiding. When someone covers the light sensor with their hand, the ghost begins to glow.
 
-I came up with the idea of a shy little ghost that feels more comfortable in the dark. When exposed to light, the ghost stays unlit, almost as if it is hiding. When someone covers the light sensor with their hand, the ghost begins to glow.
-
-The idea is to transform a simple input-output relationship into a small, playful interaction. Rather than pressing a button, the user makes a gesture of sheltering the ghost, which responds by coming to life.
+The idea is to transform a simple input-output relationship into a small, playful interaction.
 
 **Interaction:** Light → Ghost sleeps | Darkness → Ghost glows
 
 ## 02 — Components & Setup
 
 I used the following components from the Arduino kit:
-
-- Elegoo Arduino Uno R3
-- Breadboard and jumper wires
-- 1 LED
-- 1 LDR (light-dependent resistor)
-- 1 × 10 kΩ resistor
-- 1 × 330 Ω resistor
-- USB cable
+|Components|Set Up|
+|---|---|
+| Elegoo Arduino Uno R3, Breadboard and jumper wires, 1 LED, 1 LDR (light-dependent resistor), 1 × 10 kΩ resistor, 1 × 330 Ω resistor, USB cable |<img width="4284" height="5712" alt="IMG_9615" src="https://github.com/user-attachments/assets/bcaebcab-2aa6-4b82-ba16-bbaf60b8ac96" />|
 
 The LDR senses changes in ambient light and sends an analog reading to the Arduino through pin A0. The Arduino compares this reading against a threshold and controls the LED through digital pin 9.
 
@@ -233,9 +230,12 @@ Another challenge was finding the right LDR threshold before and after placing t
 | Light reading (covered) | 140-170 | 50-70 |
 | Initial threshold | 500 <img width="233" height="87" alt="截圖 2026-10-27 上午11 01 35" src="https://github.com/user-attachments/assets/b97b993c-c90a-4643-9172-15138a0e8998" />| 300 |
 | Adjusted threshold | 300 <img width="231" height="100" alt="截圖 2026-10-27 上午11 01 55" src="https://github.com/user-attachments/assets/990e087a-bc23-46c9-9255-974eeb93b62e" />| 200 |
-| LED behavior | Often stays ON when uncovered | stays ON when surrounding is bright, OFF when surrounding is dark https://github.com/user-attachments/assets/15f1054c-cada-40bd-8d38-c0d2af04302c |
+| LED behavior | Often stays ON when uncovered| stays ON when surrounding is bright, OFF when surrounding is dark|
 | Main challenge | Threshold too high | Ghost material may affect light detection |
 
+| Before threshold adjustment | After adjustment |
+|---|---|
+| https://github.com/user-attachments/assets/c1b68330-9949-4774-bab6-827871670655| https://github.com/user-attachments/assets/d3d194bd-653c-4df5-a12d-9b97e9245b0e|
 
 **Takeaway:** I learned that the physical form of an object can directly influence how its electronics behave. Sensor calibration needs to happen within the final physical prototype and the surrounding environment, not just on the breadboard.
 
