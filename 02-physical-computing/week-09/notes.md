@@ -297,6 +297,59 @@ Rigid sheets like wood or thick plastic don't normally bend. Cutting rows of alt
 - [ ] Sand off sharp and burnt edges
 - [ ] Bring it to class and document it in this journal
 
+### The Snacker's Ring 🥔 💍
+
+**Concept**
+
+A ring that allows me to snack while I do work on my laptop without making my fingers dirty so my laptop can stay clean as well
+
+---
+
+### ✏️ Sketches/ Brainstorm
+
+<table width="100%">
+<tr>
+<td valign="top" width="50%">
+
+<img width="4284" height="5712" alt="design 1" src="https://github.com/user-attachments/assets/28ea1b1e-7836-46a7-8e16-e3750cf86ab6" />
+
+
+<sub>Sketch 1: pinching mechanism controlled by the thumb</sub>
+
+</td>
+<td valign="top" width="50%">
+
+<img width="5712" height="4284" alt="design 2 layout" src="https://github.com/user-attachments/assets/c7d98f63-b3f6-422c-b799-91a565ae3aea" />
+<img width="5712" height="4284" alt="design 2" src="https://github.com/user-attachments/assets/72b475b2-8997-486b-8184-fcc574e0c94b" />
+
+
+<sub>Sketch 2: pinching mechanism controlled by middle and index finger</sub>
+
+</td>
+</tr>
+</table>
+
+- Explored different ways to pick up the snack, trying to find the most ergonomic way
+- ⬇️ decided to go with the second idea and designed the layout in adobe illustrator
+<img width="1007" height="771" alt="截圖 2026-10-29 下午3 51 44" src="https://github.com/user-attachments/assets/2462bc92-178f-44e0-9ea4-b8fc4fe9c6ba" />
+
+---
+
+### 🔁 Iterations
+
+| Iteration |material/thickness| Image | How was it? |
+|---|---|---|---|
+| **V1** |plywood/1/8 inch| <img width="2870" height="3827" alt="IMG_9604" src="https://github.com/user-attachments/assets/b95bdfb1-f874-4bca-8e11-cd5a0fb485f2" /><img width="4284" height="5712" alt="IMG_9606" src="https://github.com/user-attachments/assets/117962b0-25c9-4d45-af25-4d25cedc2700" />| The plywood used for cutting was too thick and the flexture design wasn't designed properly so it doesn't bend as I hope it would (it just breaks when you apply force) |
+| **V2** | plywood/1/8 inch | <img width="4284" height="5712" alt="IMG_9626" src="https://github.com/user-attachments/assets/980a4a08-b21c-4e2e-98e6-69fed0de34f0" /><img width="5712" height="4284" alt="IMG_9609" src="https://github.com/user-attachments/assets/15003a95-8aba-4384-b5ce-a925fdd53901" />|I developed a completely new design that no longer required curling the plywood into a ring. Instead, this design used the plywood’s natural flexibility to create the pinching action. The prototype worked as I had hoped: the slender arms could bend enough to grip a chip without kerf cuts, hinges, or additional moving parts. This simplified the construction while preserving the intended function. |
+
+**V2 layout design in Adobe Illustrator**
+<img width="1052" height="732" alt="截圖 2026-10-29 下午4 13 25" src="https://github.com/user-attachments/assets/3acb893b-8e8c-42fb-91f5-533a348b1698" />
+**Printing...**
+https://github.com/user-attachments/assets/a65143f5-57ef-4c40-8a02-806c4217a1f0
+
+**Outcome**
+<img width="1535" height="1024" alt="木製指環夾取洋芋片拼貼人體藝術-1" src="https://github.com/user-attachments/assets/ba09a0d0-71cc-4537-b549-ea48f06d676a" />
+
 ### 💡 Weekly Reflection
 - [placeholder]
 
