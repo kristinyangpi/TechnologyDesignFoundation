@@ -345,6 +345,7 @@ A ring that allows me to snack while I do work on my laptop without making my fi
 **V2 layout design in Adobe Illustrator**
 <img width="1052" height="732" alt="截圖 2026-10-29 下午4 13 25" src="https://github.com/user-attachments/assets/3acb893b-8e8c-42fb-91f5-533a348b1698" />
 **Printing...**
+
 https://github.com/user-attachments/assets/a65143f5-57ef-4c40-8a02-806c4217a1f0
 
 **Outcome**
