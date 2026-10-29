@@ -351,9 +351,10 @@ https://github.com/user-attachments/assets/a65143f5-57ef-4c40-8a02-806c4217a1f0
 **Outcome**
 <img width="1535" height="1024" alt="木製指環夾取洋芋片拼貼人體藝術-1" src="https://github.com/user-attachments/assets/ba09a0d0-71cc-4537-b549-ea48f06d676a" />
 
+**Moving Forward**
+- I’d like to make the design more compact and experiment with the shape of each layer, so the three layers come together to create a more distinctive form rather than simply resembling a ring.
+- I’d also like to explore food-grade plastic as an alternative to plywood, with the aim of making the ring washable and reusable.
 ### 💡 Weekly Reflection
-- [placeholder]
+This week was our first time in the physical computation side of the course, and my first time using a laser cutter. Both felt like a shift from the screen-based work I've done so far. With Arduino, I could see my code change something real on the board for the first time. Understanding what `setup()`, `loop()`, and `delay()` actually mean, instead of just copying them, meant I could change a variable and watch the result, which made experimenting feel much less intimidating than I expected.
 
-### ➡️ Next steps
-- Complete the homework above
-- [placeholder]
+Using the laser cutter for the first time showed me how much the digital and physical sides depend on each other. A design that looks right in a CAD file still has to survive kerf, burnt edges, material thickness, and fit on a real finger.
