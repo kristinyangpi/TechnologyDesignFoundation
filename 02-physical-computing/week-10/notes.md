@@ -31,19 +31,18 @@
   - A short write-up of the experiments and results
 
 # 🪦 Peeka-BOO! 🎃👻🍬🦇💀🧡
-**Arduino Experiment: Serbvo motor & ultrasonic sensor**
+**Arduino Experiment: Serbvo motor + ultrasonic sensor**
 
-[placeholder: drag hero image here]
+## 01 — Concept
+A tiny ghost hides behind a tombstone. When someone gets close, it peeks out to say BOO! When they leave, it hides again.
+**Mechanism:** Attach a paper ghost directly to the servo wing, hidden behind the tombstone(ultrasonic sensor).
+<img width="733" height="413" alt="截圖 2026-11-03 下午1 25 57" src="https://github.com/user-attachments/assets/9921eb43-0156-4afd-a5b1-0c63e6f19967" />
 
-| Final Outcome! | Serial Monitor |
+| Final Outcome! | Serial Monitor displays the ultrasonic sensor’s distance readings |
 |---|---|
-| [placeholder: drag video here] | [placeholder: drag video here] |
+| https://github.com/user-attachments/assets/64feca16-9afe-4908-a38d-3545caa612e7 | https://github.com/user-attachments/assets/9ac4dbf9-45f7-499c-8f60-0aaf059bdfb7 |
 
-## 01 — Concept: [placeholder]
-
-[placeholder: the idea and story behind it]
-
-**Interaction:** [input] → [output]
+**Interaction:** hand distance <35cm → servo turns and reveals the little ghost
 
 ## 02 — Components & Setup
 
