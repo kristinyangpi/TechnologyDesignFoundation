@@ -164,52 +164,54 @@ Another challenge was figuring out how to hide the servo, ultrasonic sensor, and
 **Key learning**
 - 3D printing can serve different stages of prototyping, from quick rough models to more refined versions. 
 <img width="902" height="507" alt="截圖 2026-11-05 中午12 55 59" src="https://github.com/user-attachments/assets/770a2720-9f6f-465c-828b-4ead2ba46ce5" />
-- Setting up Fusion was the first step toward modeling parts in 3D, compared with the flat 2D files I used for laser cutting
+
+- Setting up Fusion was the first step toward modeling parts in 3D, compared with the flat 2D Adobe Illustrator files I used for laser cutting
 
 ---
 
-### 📋 Homework: [Name] (due [date])
+### 📋 Homework: 3D printed Rings (due Thursday,Nov 5)
 
-**Brief:** [placeholder]
+- [ ] 3D print your rings!
+- [ ] Bring your working Arduino + servo (or motor) + computer vision assembly:
+  - [p5.js Web Editor: TDF_ComputerVision_HeadPositionControlsServo](https://editor.p5js.org/loopstick/sketches/5DSqlJBWt)
+- [ ] Document the work in this journal:
+  - 1 video + some images (if relevant)
+  - Code files + circuit diagrams
+  - A short write-up of the experiments and results
 
-| Constraint | Details |
-|---|---|
-| [placeholder] | [placeholder] |
-| [placeholder] | [placeholder] |
-
-- [ ] [placeholder]
-- [ ] Bring it to class and document it in this journal
-
-### [Project Name] 
+### The Sushi NFC Ring 🍣 💍
 
 **Concept**
-
-[placeholder]
+I wanted to make a ring with an NFC sticker built in, so it becomes a useful everyday tool: a tap that could serves as a door key fob or open my Instagram profile. Since I love sushi, I designed the ring in the shape of sushi to make a functional object feel playful and personal.
+**Interaction:** Tap the ring to a my apartment front door → door unlocks
 
 ---
 
 ### ✏️ Sketches / Brainstorm
+**Design features**
+I wanted the to make the sushi flavors changeable, so the ring itself is designed as a separate component from the rice, which could be slided and clicked on to secure
+- **Modular design:** the ring base and the sushi pieces are separate parts
+- **Slide-and-click fit:** the rice slides onto the ring and clicks to lock in place
+- **Changeable parts:** different sushi toppings can be swapped on the same ring
+- **NFC sticker:** built in so the ring works as a tap tool
 
 <table width="100%">
 <tr>
 <td valign="top" width="50%">
 
-[placeholder: drag sketch here]
+<img width="1800" height="1400" alt="Tamago_v1" src="https://github.com/user-attachments/assets/f19512c6-285b-41c3-b97b-8349bb0e1f52" />
 
-<sub>Sketch 1: [placeholder]</sub>
+idea visualization: tamago sushi
 
 </td>
 <td valign="top" width="50%">
 
-[placeholder: drag sketch here]
-
-<sub>Sketch 2: [placeholder]</sub>
-
+<img width="5712" height="4284" alt="IMG_0286" src="https://github.com/user-attachments/assets/52289621-3450-4524-9fda-fb2d57490907" />
+**outcome: first print**
+The first version is printed in single grey color for testing to see if each components fits well and if the NFC is detectable/scannable within the designated slot.
 </td>
 </tr>
 </table>
-
-- [placeholder: what you explored and why you chose your direction]
 
 ---
 
@@ -217,16 +219,26 @@ Another challenge was figuring out how to hide the servo, ultrasonic sensor, and
 
 | Iteration | Material / thickness | Image | How was it? |
 |---|---|---|---|
-| **V1** | [placeholder] | [placeholder] | [placeholder] |
-| **V2** | [placeholder] | [placeholder] | [placeholder] |
+| **V1** | grey filament (test) | <img width="4284" height="5712" alt="IMG_0283" src="https://github.com/user-attachments/assets/75de9492-047b-4064-8414-83489b778790" /> | each components are compatible and fits securely, so it would be good to print the official version with separate color filaments |
+| **V2** | white(rice), yellow(tamago), dark green (seaweed wrap) filament | <img width="798" height="669" alt="截圖 2026-11-16 下午2 21 36" src="https://github.com/user-attachments/assets/d7df84b8-32f0-4e68-b0e0-c629e12d159e" /> | i like it! |
 
 **Outcome**
+<table width="100%">
+<tr>
+<td valign="top" width="50%">
+<img width="1086" height="1448" alt="tamago photoshoot2" src="https://github.com/user-attachments/assets/feff2486-efac-4c7c-a1be-2061c8fb4d35" />
 
-[placeholder: drag final image or video here]
+</td>
+<td valign="top" width="50%">
+
+<img width="1086" height="1448" alt="tamago photoshoot 3" src="https://github.com/user-attachments/assets/482b1f4b-fa7f-4235-adfd-7bfb6a0c26ea" />
+
+</td>
+</tr>
+</table>
+
 
 **Moving Forward**
-- [placeholder]
+- I could create a series of personalized tools, each designed around something I enjoy, with a practical function built in.
+- Since the ring and the sushi are separate parts, the same base could hold other designs, not just sushi flavors. [placeholder: your ideas]
 
-### 💡 Weekly Reflection
-
-[placeholder]
