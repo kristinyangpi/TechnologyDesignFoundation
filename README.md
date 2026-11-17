@@ -16,12 +16,13 @@ VERY new to coding and trying to figure it all out through **Technology Design F
 
 [Week 11](02-physical-computing/week-11/notes.md)
 
+[Week 12](02-physical-computing/week-12/notes.md)
+
 </td>
 <td valign="top" width="50%">
 
 ## Ambient Display
 
-[Week 12](02-physical-computing/week-12/notes.md)
 
 [Week 13](02-physical-computing/week-13/notes.md)
 
