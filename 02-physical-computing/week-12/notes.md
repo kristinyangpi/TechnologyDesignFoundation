@@ -1,6 +1,6 @@
-# Week 14 📅 Nov 23–27, 2026
+# Week 12 📅 Nov 9–13, 2026
 
-# 🔌 Electronics 📟 Nov 24 — Self-study (Continue to work on our Expressive Mechanics project)
+# 🔌 Electronics 📟 Nov 10 — Self-study (Continue to work on our Expressive Mechanics project)
 
 ## Project: Expressive Mechanics — Iteration
 
@@ -34,4 +34,4 @@
 **Moving Forward**
 - [placeholder]
 
-# 🥽 Fabrication & Prototyping 🛠 Nov 26 — Expressive Mechanics Crit Day!
+# 🥽 Fabrication & Prototyping 🛠 Nov 12 — Expressive Mechanics Crit Day!
