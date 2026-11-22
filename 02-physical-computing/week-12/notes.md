@@ -35,29 +35,3 @@
 - [placeholder]
 
 # 🥽 Fabrication & Prototyping 🛠 Nov 26 — Expressive Mechanics Crit Day!
-
-**What we learned**
-- [placeholder]
-
-**Key learning**
-- [placeholder]
-
-### 📋 Homework
-- [ ] [placeholder]
-
-## Project: [Project name]
-
-**Concept**
-- [placeholder]
-
-**Sketches**
-
-| Sketch | Notes |
-|---|---|
-| [placeholder] | [placeholder] |
-
-**Iterations**
-
-| Version | What changed | Result |
-|---|---|---|
-| v1 | [placeholder] |
