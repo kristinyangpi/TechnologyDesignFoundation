@@ -2,7 +2,7 @@
 
 ---
 
-# 🔌 Electronics 📟 Nov 3 — Expressive Mechanics Demo
+# 🔌 Electronics 📟 Nov 3&5 — Expressive Mechanics Brief Intro + Kickstart
 **What we did**
 
 - Went through the brief for our first foundational project, **Expressive Mechanics**
