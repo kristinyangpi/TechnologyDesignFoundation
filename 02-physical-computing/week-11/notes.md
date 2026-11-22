@@ -1,4 +1,4 @@
-<img width="4284" height="5712" alt="IMG_0114" src="https://github.com/user-attachments/assets/d349300d-c6f8-42b1-b1b2-8fd52274fe57" /># Week 13 📅 Nov 16–20, 2026
+# Week 13 📅 Nov 16–20, 2026
 
 ---
 
