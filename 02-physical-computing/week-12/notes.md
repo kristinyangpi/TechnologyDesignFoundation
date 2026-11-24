@@ -52,10 +52,13 @@ Sketch:
 
 Lasercut:
 <img width="4284" height="5712" alt="IMG_0170" src="https://github.com/user-attachments/assets/77066115-3be2-4436-a2c1-9cd8aff45de6" />
-https://github.com/user-attachments/assets/c45f8202-82aa-4931-8e42-30b2e5191422
+
+https://github.com/user-attachments/assets/37f30d08-62f9-4b42-9e79-6b9de8f804c6
+
 </td>
 </tr>
 </table>
+
 
 **03 Coding**
 - Connected the code and computer vision with Arduino, so a detected motion now triggers the servo
