@@ -4,7 +4,7 @@
 
 ## Project: Expressive Mechanics — Iteration
 
-**01 Concept**
+### **01 Concept**
 - I changed the **human figure from standing to squatting** because the pose communicates the toilet scene more naturally.
 - I then developed the rear-facing character into someone who could turn around with an angry expression when their privacy was interrupted.
 - **This led to a motion-controlled game:** the player holds a squat to keep the toilet door closed. Standing too early opens the door, and the physical character turns to look at them.
@@ -26,7 +26,7 @@ After:
 </tr>
 </table>
 
-**02 Mechanism & Setup**
+### **02 Mechanism & Setup**
 
 | Part | Role |
 |---|---|
@@ -59,15 +59,77 @@ https://github.com/user-attachments/assets/37f30d08-62f9-4b42-9e79-6b9de8f804c6
 </tr>
 </table>
 
+### **03 Game Implementation**
 
-**03 Coding**
-- Connected the code and computer vision with Arduino, so a detected motion now triggers the servo
-- [placeholder: how you sent the signal from p5.js to Arduino, e.g. serial]
-- [placeholder: which pose or motion triggers the movement]
+After having the physical part set, I decided to connect the mechanism to a toilet game, giving the character a setting and a reason to turn around. The player helps the character poop in peace by holding a squat to keep the toilet door closed. Standing up too early interrupts his privacy, making him turn around angrily.
+
+| Player action | On-screen response | Physical mechanism |
+|---|---|---|
+| Squat and hold | Door stays closed; squat time accumulates | Character faces away |
+| Stand up too early | Door opens; progress pauses | Angry face moves into view |
+| Squat again | Door closes; progress resumes | Character turns back |
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+Game Interface Sketch in Illustrator:
+<img width="677" height="477" alt="截圖 2026-11-24 中午12 55 19" src="https://github.com/user-attachments/assets/0ddbdd29-6658-46f3-9000-98810c10e29a" />
+
+
+</td>
+<td width="50%" valign="top">
+
+  **Prompt for Codex**
+
+instruction: this is a toilet with doors open and close controlled by motion
+1. he needs to go to the toilet, help him walk over (motion: detects person mimicing walking with arms swinging )
+2. knock to open the door (motion: detects person using either left or right hand to knock back and forth 2 times)
+3. Come on in
+4. Squat to lock the door! STAY IN POSITION UNTIL HE'S DONE! Or else the door will open (motion: detects user squating, door stays locked and triggers the pooping mechanism in arduino, the person will be done in 10 sec, if detects the user stand up within the 10 sec range, make door open and the person pooping shock and angry, until the user goes back to squating, door close again and time continues to count, if user stays squat for 10 sec, see instruction 5.)
+5. He's done! Give him a thumbs up! (motion: detects user giving either left or right hand thumbs up, door opens and the person walks out. and triggers arduino to return to the 空 sign.
+6. thanks for helping: your pooping score is: (depedning on how accurate the squat position is and if the person stopped squating in between , give a score from 1-100)
+7. restart again
+
+the style of the interface make it mimic the laser cutting wood and engraving style with simple line drawing and typography, show me a visualization before continueing
+
+</td>
+</tr>
+</table>
+
+**Codex Output:**
+<img width="1156" height="675" alt="截圖 2026-11-24 下午1 02 16" src="https://github.com/user-attachments/assets/baa2a2b8-63d4-4d83-b787-4a8d200048fb" />
+
+### **04 Coding and Iteration**
+
+I connected the browser game to Arduino through Web Serial over USB. MediaPipe detects the player’s movement, JavaScript decides what should happen, and Arduino receives a command to move the servo.
+
+| Part | Role |
+|---|---|
+| Webcam + MediaPipe | Detect the player's pose |
+| Browser JavaScript | Run the game and decide when to trigger a reaction |
+| USB serial connection | Send commands from the computer to Arduino |
+| Arduino Uno + MG90S servo | Move between calibrated positions |
+| Laser-cut plywood mechanism | Reveal the different head and lower-display states |
+
+**Circuit**
+
+
+1. **Calibration**
+I updated the Arduino program for a 45° movement and recalibrated the two stopping positions. The program saved these positions so I could reuse them after reconnecting the board.
+
+https://github.com/user-attachments/assets/e9bff186-5b14-4274-81d0-7a232aafb60f
+
+2. Simplifying the game play and user journey
+
+
+```Arduino Code:
+// paste your Arduino code here
+```
 
 [placeholder: drag video of the game triggering the mechanism here]
 
-**04 Experimentation**
+### **05 Experimentation**
 - [placeholder: what worked, what didn't, any tuning you did]
 
 **Key takeaways**
